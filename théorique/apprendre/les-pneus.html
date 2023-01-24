@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien lié au fichier html -->
+    <link rel="stylesheet" href="./assets/css/les-pneus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- En-tête de la page -->
+    <title>Auto-début - Les pneus</title>
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre">Bandage pneumatiques</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+      </div>
+
+    <div class="contenuPage">
+
+        <div class="encadrer">
+            <h3>Rainures</h3>
+
+            <div class="text-content">
+                Pour évacuer l'eau (aquaplanage)
+            </div>
+
+            <div class="text-content">
+                Profondeur minimal des rainures principales : 1,6 mm (cyclo : 1 mm)
+            </div>
+
+            <div class="text-content">
+                TWI : témoin d'usure
+                <img src="../../assets/image/apprendre-image/temoin-d'usure.png" alt="">
+            </div>
+
+            <div class="text-content">
+                Interdit de retailler ou de redessiner un pneu usé
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Structure</h3>
+
+            <div class="text-content">
+                Soit radial soit diagonal
+            </div>
+
+            <div class="text-content">
+                Sur un même essieu il faut des pneus de même structure
+            </div>
+
+            <div class="text-content">
+                Diagonal devant + radial derrière : autorisé (Droit)
+            </div>
+
+            <div class="text-content">
+                Radial devant + diagonal derrière : interdit (Ridicule)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Pression</h3>
+
+            <div class="text-content">
+                Vérifier régulièrement (1 x par mois) et à froid (avant d'avoir roulé)
+            </div>
+
+            <div class="text-content">
+                Augmenter la pression pour un long voyage fort chargé; ne jamais diminuer la pression
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Mauvaise conditions</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Pneus à clous</div>
+                du 1/11 au 31/3
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Chaînes</div>
+                si nécessaire (neige, verglas)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Codes 
+                <br>
+                <div class="text-content">
+                    exemple : &nbsp 
+                    <div class="subtitle">
+                        155 / 65 R 14 75 T
+                    </div>
+                </div>
+            </h3>
+            <div class="image">
+                <img class="taille_1" src="../../assets/image/apprendre-image/code-pneu.jpg" alt="">
+                <img class="taille_2" src="../../assets/image/apprendre-image/code-annee.jpg" alt="">
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">155</div>
+                largeur de la bande de roulement en mm
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">65</div>
+                rapport entre la hauteur et la largeur
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">R</div>
+                Structure du pneu, R = radial ou D = diagonal
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">14</div>
+                diamètre de la jante en pouce
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">75</div>
+                code de charge
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">T</div>
+                code de vitesse
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">1919</div>
+                date de fabrication (19éme semaine de 2019)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Lors d'une crevaison</h3>
+            <div class="text-content">
+                <div class="subtitle">Serrer</div>
+                Sens : aiguilles d'une montre
+                <br>
+                ordre : en croix
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Desserrer</div>
+                Sens : inverse aiguille d'une montre
+                <br>
+                ordre : sans importance
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./communiquer.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

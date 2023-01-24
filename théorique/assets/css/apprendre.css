@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.topnav {
+
+  overflow: hidden;
+  background-color: rgba(21, 20, 20, 0.332);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  border-bottom: 1px solid #202020;
+
+}
+
+.topnav a {
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+
+}
+
+.topnav a:hover {
+
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.065);
+
+}
+
+img {
+  
+  padding: 5px;
+  width: 70px;
+  border-radius: 50px;
+
+}
+
+i {
+
+  margin-right: 8px;
+
+}
+
+
+.active {
+
+  float: left;
+  text-align: center;
+  padding: auto;
+
+}
+
+.topnav .icon {
+
+  display: none;
+
+}
+
+a.login {
+
+  padding: 12px 40px;
+  background-color: rgba(195, 32, 32, 0.368);
+  float: right;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a.login:hover {
+
+  background-color: rgba(246, 58, 58, 0.527);
+  color: snow;
+
+}
+
+.tout {
+
+ padding-top: auto;
+ 
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+.millieu{
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  margin-top: 30px;
+
+}
+
+.colonne {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.colonne .box-3 {
+
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+
+}
+
+div[class*=box] {
+
+  height: 40.33%;
+  width: auto; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn {
+
+  line-height: 85px;
+  height: 83px;
+  text-align: center;
+  width: 390px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-family: 'Encode Sans SC', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.btn-petit {
+
+  line-height: 85px;
+  height: 83px;
+  text-align: center;
+  width: 390px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-family: 'Encode Sans SC', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.btn-tres-petit {
+
+  line-height: 85px;
+  height: 83px;
+  text-align: center;
+  width: 390px;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  font-family: 'Encode Sans SC', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+/* 
+===========================
+      BOUTON TRANSPARENT
+===========================
+*/
+.btn-three {
+  color: black;
+  transition: all 0.5s;
+  position: relative;
+  font-weight: bold;
+}
+
+.btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #e54b4b;
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+
+@media screen and (min-device-aspect-ratio: 4/3){
+  header::after{
+      content: '4/3';
+  }
+
+}
+
+@media screen and (min-device-aspect-ratio: 16/9){
+   header::after{
+      content: '16/9';
+  }
+}
+
+@media screen and (min-device-aspect-ratio: 16/10){
+   header::after{
+      content: '16/10';
+  }
+}
+
+/*###  css pour  1440PX ###*/
+@media screen and (max-width: 1445px) {
+
+  .btn {
+
+    width: 300px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 15px;
+
+  }
+
+  .btn-tres-petit {
+
+    width: 300px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 12px;
+
+  }
+
+  .btn-petit {
+
+    width: 300px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 15px;
+
+  }
+
+}
+
+/*###  css pour  1280PX ###*/
+@media screen and (max-width: 1280px) {
+
+  .btn {
+
+    width: 280px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 15px;
+
+  }
+
+  .btn-tres-petit {
+
+    width: 280px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 12px;
+
+  }
+
+  .btn-petit {
+
+    width: 280px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 15px;
+
+  }
+
+}
+
+/*###  css pour iphone 12 pro  390PX ###*/
+@media screen and (max-width: 390px) {
+
+  body {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+
+  }
+
+  .millieu {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+
+  }
+
+  .colonne {
+
+    display: block;
+    justify-content: center;
+    margin: 15px;
+    
+  }
+
+  .colonne .box-3 {
+
+    margin: 0;
+
+  }
+
+  div[class*=box] {
+
+    height: 40.33%;
+    width: 10px; 
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .btn {
+
+    line-height: 85px;
+    height: 85px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+    
+  
+  }
+
+  .btn-petit {
+
+    width: 100%;
+    font-size: 17px;
+    margin-top: 15px;
+    height: 85px;
+    line-height: 85px;
+
+  }
+
+  
+  .btn-tres-petit {
+
+    width: 100%;
+    margin-top: 15px;
+    font-size: 12px;
+    height: 85px;
+    line-height: 85px;
+
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .fa {
+
+    margin-right: 0;
+
+  }
+}
+
+
+
+@media screen and (max-width: 2560px) {
+
+  
+
+  .colonne {
+
+    margin: 10px;
+
+
+  }
+
+}
+
+

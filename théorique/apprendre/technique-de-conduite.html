@@ -1,0 +1,136 @@
+<!-- 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 07/09/2022 A 19H47
+QUOI ? CHAPITRE SUR LA TECHNIQUE DE CONDUITE (HTML)
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lien -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Titre de la page -->
+    <title>Auto-début - Technique de conduite</title>
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre">Technique de conduite</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        <!-- avoir le controle sur le véhicule -->
+        <div class="encadrer">
+            <h3>Avoir le contrôle sur le véhicule</h3>
+
+            <div class="text-content">
+                Notamment pas de GSM à la main
+            </div>
+            
+        </div>
+
+        <div class="encadrer">
+            <h3>Position de conduite</h3>
+
+            <div class="text-content">
+                Main sur le volant à 9h15
+                <br>
+                Bras et jambes légèrement fléchis; le dos contre le dossier; ne pas laisser le pied gauche sur la pédale d'embrayage
+                <br>
+                Maximum 5cm entre la tête et l'appuie-tête
+            </div>
+            
+        </div>
+
+        <div class="encadrer">
+            <h3>3 pédales</h3>
+
+            <div class="text-content">
+                Embrayage - frein - Accélérateur
+                <br>
+                Pour s'arrêter: pousser d'abord le frein
+                <br>
+                Pousser l'embrayage = DEBRAYER; lâcher l'embrayage = EMBRAYER
+            </div>
+            
+        </div>
+
+        <div class="encadrer">
+            <div class="text-content">
+                <div class="subtitle">ABS</div>
+                système de freinage qui évite le blocage des roues
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Frein moteur</div>
+                = lâcher l'accélérateur
+                <br>
+                Le moteur va ralentir la voiture à condition de ne pas pousser l'embrayage
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Rétrograder</div>
+                = descendre de vitesse (5 -> 4, 3 -> 2, etc..) => augmente le frein moteur
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Virage / Descente</div>
+                avant : freiner et rétrograder
+                <br>
+                pendant : ni freiner ni débrayer
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Ne pas couper le moteur en roulant</div>
+                => ni direction assistée, ni assistance au freinage
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">La voiture dévie au freinage</div>
+                => problème de freins
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">En cas d'aquaplanage</div>
+                pousser l'embrayage, ne pas freiner
+            </div>
+
+        </div>
+            
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./conduite-écono-ecolo.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+        
+
+    </div>
+
+    <!-- LIEN LIE POUR LE javascript -->
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

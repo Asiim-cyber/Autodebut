@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e54b4b;
+}
+
+/* icon */
+i {
+  margin-right: 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(21, 20, 20, 0.55);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 3px solid #000000;
+  position: sticky; 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.065);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+i {
+  margin-right: 8px;
+}
+
+.active {
+  float: left;
+  text-align: center;
+  padding: auto;
+}
+
+a.login {
+  padding: 12px 40px;
+  background-color: rgba(195, 32, 32, 0.368);
+  float: right;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.login:hover {
+  background-color: rgba(246, 58, 58, 0.527);
+  color: snow;
+}
+
+.contenuPage {
+  display: flex;
+  justify-content:center;
+  flex-direction: columns;
+  align-items: center;
+}
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 3%;
+
+  /* police du formulaire */
+  font-family: 'Montserrat', sans-serif;
+
+  /* couleur fond du formulaire */
+  background-color: #e0e0e0;
+  color: black;
+
+  /* Encadré pour voir les limites du formulaire */
+  border: 3px solid #e0e0e0;
+  border-radius: 1em;
+}
+
+form div {
+  margin-top: 2.5em;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000000da;
+  outline: none;
+  text-decoration: none;
+  
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+/* navbar du formulaire d'inscription */
+.haut_de_formulaire {
+
+  padding: 15px;
+  margin-top: 0;
+  border-bottom: 1.5px solid black;
+
+}
+
+.champ {
+
+  padding: 10px;
+  border: 2px solid #e54b4b;
+  border-radius: 10px;
+  width: 250px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: auto;
+
+}
+
+.connexion {
+
+  margin-top: 30px;
+  background-color: green;
+  border: 5px solid green;
+  border-radius: 7px;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.connexion:hover {
+
+  background-color: rgb(3, 150, 3);
+  color: white;
+  border: 5px solid rgb(3, 150, 3);
+
+}
+
+form h1{
+  color: #e54b4b;
+  text-align:center;
+}
+
+form a.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(40, 40, 255);
+  text-decoration: none;
+}
+form a.inscription span{
+  color: #e54b4b;
+}
+
+.noCompte {
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}

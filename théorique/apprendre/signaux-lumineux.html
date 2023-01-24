@@ -1,0 +1,185 @@
+<!-- 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 14/09/2022
+QUOI ? CHAPITRE SIGNAUX LUMINUEUX
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LIEN -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- EN-TÊTE DOC -->
+    <title>Auto-début - Signaux lumineux</title>
+</head>
+
+<!-- page html -->
+<body class="deleteScroll" id="deleteScroll">
+
+     <!-- Navbar au dessus de la page -->
+     <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+
+        <!-- TITRE -->
+        <h1 id="titre"><br>Signaux lumineux</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+        <div class="encadrer">
+            <h3>Feu rouge</h3>
+
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feu-rouge.png" alt="">
+                STOP à la ligne ou, à défaut de ligne, au feu
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feu orange fixe</h3>
+
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feu-orange.png" alt="">
+                STOP à la ligne, à défaut de ligne, au feu sauf si le conducteur se trouve trop près du feu lorsqu'il s'allume
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feu vert</h3>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feu-vert.png" alt="">
+                Autorisation de franchir le feu
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feux sous forme de flèches</h3>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feux fleche.png" alt="">
+                <img class="panneau" src="../../assets/image/apprendre-image/feux-rouge-fleche.png" alt="">
+                L'autorisation de continuer dans le sens indiqué par la flèche MAIS céder le passage à ceux qui ont le feu vert (venant de droite et de gauche)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Flèche verte allumée conjointement avec un feu rouge ou orange fixe</h3>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feux-rouge-fleche-verte.png" alt="">
+                Autorisation de continuer dans le sens indiqué par la flèche MAIS céder le passage à ceux qui ont le feu vert (venant de droite ou de gauche)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <div class="text-content">
+                Le feu valable est placé a droite
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feux placés au dessus des bandes et autres parties</h3>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/croix-rouge.png" alt="">
+                <div class="subtitle">Croix rouge</div>
+                bande interdite
+            </div>
+
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/fleche-orange.png" alt="" style="rotate: 320deg;">
+                <div class="subtitle">Fléche orange</div>
+                bande à évacuer
+            </div>
+
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/fleche-verte.png" alt="">
+                <div class="subtitle">Fléche verte</div>
+                bande autorisée
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Flèche d'evacuation</h3>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/fleches-evacuation.png" alt="">
+                Placée seule, à gauche, à la sortie d'un carrefour: le sens inverse est retenu par un feu rouge
+            </div>
+
+        </div>
+
+        <div class="encadrer">
+            <h3>Feux orange clignotant</h3>
+            <div class="text-content">
+                <img src="" alt="">
+                Soit placé seul
+            </div>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feu-orange.png" alt="">
+                Soit clignotant au milieu
+            </div>
+            <div class="text-content">
+                <img class="panneau" src="../../assets/image/apprendre-image/feu-orange-bas.png" alt="">
+                Soit clignotant en bas à la place du feu vert
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feux aux passage à niveaux</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Deux feux rouges</div>
+                clignotants alternativement : STOP
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Un feux blanc lunaire</div>
+                clignotant : autorisation de franchir
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Feux pour les véhicules de transport en commun</h3>
+
+            <div class="text-content">
+                Barre horizontale = feu rouge
+                <br>
+                Cercle = feu orange
+                <br>
+                Triangle ou barre verticale ou barre en oblique = feu vert
+                <br>
+                Vous devez respecter ces feux si vous circulez sur le site spécial franchissable
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./signaux-routiers.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+
+    </div>
+
+    <!-- LIEN LIE POUR LE javascript -->
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

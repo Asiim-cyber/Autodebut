@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+
+body {
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    color: snow;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+     
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+.sticky{
+
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  
+}
+
+.topnav {
+
+  overflow: hidden;
+  background-color: rgba(21, 20, 20, 0.55);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 3px solid #000000;
+  position: sticky;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.065);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+img {
+
+  width: 100px;
+  border-radius: 50px;
+
+}
+
+i {
+
+  margin-right: 8px;
+
+}
+
+.active {
+
+  float: left;
+  text-align: center;
+  padding: auto;
+
+}
+
+
+
+a.login {
+
+  padding: 12px 40px;
+  background-color: rgba(195, 32, 32, 0.368);
+  float: right;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.login:hover {
+
+  background-color: rgba(246, 58, 58, 0.527);
+  color: snow;
+  
+}
+
+.tout {
+
+ padding-top: auto;
+ 
+}
+
+.permis {
+
+  display: flex;
+  position: relative;
+  text-align: left;
+  background-color: #E54B4B;
+  width: auto;
+  height: 60vh;
+}
+
+.car {
+
+  display: flex;
+  position: relative;
+  text-align: left;   
+  background-color: #e0e0e0;
+  width: auto;
+  height: 60vh;
+
+
+}
+
+.bouton1 {
+
+  margin-left: 200px;
+  margin-top: 131px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.text-content {
+
+  margin-top: 230px;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-right: 200px;
+
+
+}
+
+.text-content2 {
+
+  margin-top: 230px;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-right: 200px;
+  color: #E54B4B;
+
+}
+
+.bold-text {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+}
+
+
+#center {
+   
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #202020;
+    height: 100vh;
+      
+}
+
+titleRed {
+
+  color:  #E54B4B; 
+
+}
+
+#fin_de_page{
+
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    justify-content: space-between;
+    padding-top: 127px;
+    
+}
+
+.title {
+
+    padding: 50px;
+    position: relative;
+    font-size: 65px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url(../image/Auto-début_logo.png);
+    background-position: -53px;
+    background-repeat: no-repeat
+
+}
+
+.explication {
+
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.text-danger {
+  
+  padding: 5px;
+  margin-top: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  border: 2px solid #4EA5D9;
+  border-radius: 15px;
+  color: #201E1F;
+  background-color: #4EA5D9;
+
+}
+
+
+.btn {
+
+    background: none;
+    width: 450px;
+    height: 300px;
+    border: 30px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e0e0e0;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
+}
+
+.variable-button {
+
+  background: none;
+  width: 450px;
+  height: 300px;
+  border: 30px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e0e0e0;
+  transition: 0.2s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+
+.variable-button::before
+{
+  content: attr(data-text);
+}
+.variable-button:hover
+{
+  background: #201E1F;
+  transition: .4s;
+}
+.variable-button:hover::before
+{
+  content: attr(data-texthover);
+}
+
+.variable-button2 {
+
+  background: none;
+  width: 450px;
+  height: 300px;
+  border: 30px solid #E54B4B;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #E54B4B;
+  transition: .2s;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+.variable-button2::before
+{
+  content: attr(data-text);
+}
+.variable-button2:hover
+{
+  background: #201E1F;
+  color: white;
+  transition: .4s;
+}
+.variable-button2:hover::before
+{
+  content: attr(data-texthover);
+}
+
+.dessousDePage {
+
+  background-color: #201E1F;
+  padding: 30px;
+}
+
+.dessousDePage a {
+
+  position: relative;
+  color: white;
+  margin-left: 8px;
+
+}
+
+.containerDessousdepage{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.politique {
+
+  width: 50px;
+  border: none;
+  color: #e0e0e0;
+  border-radius: 0;
+  background-color: #201E1F;
+  margin: 50px 20px 0 20px;
+
+}
+
+.discover-btn-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+
+.discover-btn {
+
+  font-size: 17px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 60, 60);
+  color: snow;
+  padding: 12px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+
+}
+
+.discover-btn:hover {
+  
+  background-color: rgb(237, 51, 51);
+
+}
+
+/*
+###################################
+### CSS POUR PC PORTABLE 16/9 #####
+################################### 
+*/
+
+@media only screen and (max-width: 1280px) {
+
+  .body {
+
+    background-color: blue;
+
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+
+    display: none;
+
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+
+  }
+
+  .topnav.responsive {
+
+   position: relative;
+
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+/* 
+###################################
+#### css pour iphone 10 414 PX ####
+###################################
+*/
+
+@media only screen and (max-width: 414px) {
+
+  .topnav {
+
+    padding: 5px 10px;
+    
+
+  }
+
+
+  .title {
+
+    background-position: 0px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+
+  }
+
+  .explication {
+
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .discover-btn-container {
+
+    margin-top: 30px;
+
+  }
+
+  .text-danger {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+  }
+  
+  /* css du titre centrer */
+  #center {
+   
+    position: relative;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0;
+ 
+  }
+
+  p{
+    
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: 3px solid wheat;
+    background-color: rgb(0, 0, 0, 0.8);
+
+    
+  }
+
+  /* css des bouton */
+  #fin_de_page{
+
+    display: inline-block;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 105px;
+    padding-top: 0;
+    background-color: #E54B4B;
+    
+  }
+
+  .permis {
+
+    display: block;
+    text-align: center;
+
+  }
+
+  .car {
+
+    background-color: #E54B4B;
+    text-align: center;
+
+  }
+
+  .bouton1 {
+
+    background-color: black;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  
+
+  .variable-button {
+
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+    border: 10px solid #e0e0e0;
+
+  }
+
+  .variable-button2 {
+
+    width: 300px;
+    height: 150px;
+    font-size: 10px;
+    color: white;
+    border: 10px solid green;
+
+  }
+
+  .btn {
+
+    margin-top: 0;
+    height: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .btn2 {
+
+    height: 50px;
+    margin-bottom: 25px;
+
+  }
+
+  .btn3 {
+
+    height: 25px;
+
+  }
+
+  
+   
+  .btn {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: red;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+  .btn::before{
+
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 95px;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    z-index: -1;
+    transition: 0.5s linear;
+    
+}
+  .btn2 {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: blue;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+  .btn2::before{
+
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 95px;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    z-index: -1;
+    transition: 0.5s linear;
+    
+}
+
+  .btn3 {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: green;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+  .btn3::before{
+
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 95px;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    z-index: -1;
+    transition: 0.5s linear;
+    
+}
+
+.text-content {
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.text-content2 {
+
+  color: white;
+  background-color: #E54B4B;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+}
+
+
+
+/*
+#######################################
+###  css pour iphone 12 pro  390PX ###
+#######################################
+*/
+@media screen and (max-width: 390px) {
+
+
+    /* css du titre centrer */
+  #center {
+   
+    position: relative;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+ 
+  }
+
+  p{
+    
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: 3px solid wheat;
+    background-color: rgb(0, 0, 0, 0.8);
+
+    
+  }
+
+  .permis {
+
+    height: auto;
+
+  }
+
+  .car {
+
+    display: block;
+    height: auto;
+
+  }
+
+  /* css des bouton */
+  #fin_de_page{
+
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 70px;
+    
+  }
+
+  .btn {
+
+    height: 50px;
+
+  }
+
+  .btn2 {
+
+    height: 50px;
+
+  }
+
+  .btn3 {
+
+    height: 50px;
+
+  }
+
+  .btn {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: red;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+  .btn::before{
+
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 95px;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    z-index: -1;
+    transition: 0.5s linear;
+    
+}
+  .btn2 {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: blue;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+  .btn3 {
+
+    background: none;
+    width: 300px;
+    height: 100px;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: none;
+    color: green;
+    transition: 0.4s linear;
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+
+  }
+
+
+  .bouton1 {
+
+    margin-bottom:  5px;
+
+  }
+
+  .bouton2 {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .bouton3 {
+
+    margin-top: 5px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .fa {
+
+    margin-right: 0;
+
+  }
+}
+
+
+
+
+
+
+
+
+

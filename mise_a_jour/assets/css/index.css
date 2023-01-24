@@ -1,0 +1,193 @@
+/* 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 14/09/2022
+QUOI ? PAGE DES NOUVELLES NOUVEAUTÉ A VENIR OU ACTUEL 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+body {   
+
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url('../image/acceuil_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+     
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #D5FFD1;
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #202020;
+
+  }
+  
+  .topnav a {
+    display: block;
+    position: relative;
+    color: #1BC536;
+    background-color: #E8E4E4;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .topnav a:hover {
+    
+    background-color: rgba(136, 132, 132, 0.211);
+  }
+  
+.imgLogo {
+  
+    width: 300px;
+    border-radius: 150px;
+  
+  }
+  
+  i {
+  
+    margin-right: 8px;
+  
+  }
+  
+  .droite {
+
+
+    float: right;
+    width: 100%;
+
+  }
+  
+  .login {
+
+    float: right;
+    justify-content: end;
+
+  }
+
+ .titre {
+
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+
+ }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  a.login {
+  
+    padding: 12px 40px;
+    background-color: rgba(195, 32, 32, 0.368);
+    float: right;
+    transition: all 0.1s ease;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a.login:hover {
+  
+    background-color: rgba(246, 58, 58, 0.527);
+    color: snow;
+    
+  
+  }
+
+  .logo {
+
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .tout {
+  
+   padding-top: auto;
+   
+  
+  }
+
+
+
+.middleOfPage {
+
+  position: relative;
+  display: flex;
+  margin: 150px;
+
+}
+
+.imageAndDate {
+
+  margin-left: 20px;
+  display: block;
+  text-align: center;
+
+}
+
+.text {
+
+    border: 3px solid rgb(54, 53, 53);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(11, 77, 231, 0.599);
+
+}
+
+.date {
+
+    font-weight: bold;
+    border: 2px solid rgb(149, 31, 31);
+    border-radius: 10px;
+    font-size: 20px;
+    width: fit-content;  
+    padding: 5px;
+
+}
+
+.presentation {
+
+
+
+
+}
+
+.imgNew {
+
+  width: 600px;
+  border-radius: 10px;
+  border: 3px solid black;
+
+}

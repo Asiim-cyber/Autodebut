@@ -1,0 +1,906 @@
+<!-- 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 26/09/2022
+QUOI ? CHAPITRE DES SIGNAUX ROUTIERS
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- lien -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Titre de la page -->
+    <title>Auto-début - Signaux routiers</title>
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre"><br>Signaux routiers</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        <!-- Les champs d'application -->
+        <div class="encadrer">
+            
+            <p>un Triangle rouge sera toujours un panneau de danger, un rond rouge est un panneau d'interdiction, un rond bleu est un panneau d'obligation</p>
+        </div>
+
+        <div class="encadrer">
+            
+            <h3>Signaux de danger</h3>
+             
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/virage-dangereux-gauche.png" alt="" class="panneau">
+                Virage dangereux à gauche
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/virage-dangereux-droite.png" alt="" class="panneau">
+                Virage dangereux à droite
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/sucession-virage-gauche.png" alt="" class="panneau">
+                Succession de virage dangereux à gauche
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/sucession-de-virages-droite .png" alt="" class="panneau">
+                Succession de virage dangereux à droite
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/descente-dangereuse.png" alt="" class="panneau">
+                Descente dangereuse
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/montée-dangereuse.png" alt="" class="panneau">
+                Montée à forte inclinaison
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/rétrecissement-de-la-chaussée.png" alt="" class="panneau">
+                Rétrécissement de la chaussée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/pont-mobile.png" alt="" class="panneau">
+                Pont mobile
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/débouché-sur-un-quai-berge.png" alt="" class="panneau">
+                Débouché sur un quai ou une berge
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/cassis-ou-dos-d'ane.png" alt="" class="panneau">
+                Cassis ou dos d'âne
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/dispositif-surelvée.png" alt="" class="panneau">
+                dispositif(s) surélevé(s)
+            </div>
+            
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/chaussée-glissante.png" alt="" class="panneau">
+                Chaussée glissante
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/projection-de-gravillons.png" alt="" class="panneau">
+                Projection de gravillons
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/chutes-de-pierre.png" alt="" class="panneau">
+                Chutes de pierres
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-piétons.png" alt="" class="panneau">
+                Passage pour piétons
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/endroit-specialement-frequentées-par-enfants-.png" alt="" class="panneau">
+                Endroit spécialement fréquenté par des enfants
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-cyclomoteurs-byciclettes.png" alt="" class="panneau">
+                Passage pour conducteurs de bicyclettes et de cyclomoteurs à deux roues, ou endroit où ces conducteurs débouchent d'une poste cyclabe sur la chaussée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/traversée-de-gros-gibier.png" alt="" class="panneau">
+                Traversée de gros gibier
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/traverser-betaille.png" alt="" class="panneau">
+                Traversée de bétail
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/travaux.png" alt="" class="panneau">
+                Travaux
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/signaux-lumineux.png" alt="" class="panneau">
+                Signaux lumineux
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/survol-d'avion.png" alt="" class="panneau">
+                Survol d'avions à basse altitude
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/vent-lateral.png" alt="" class="panneau">
+                Vent latéral
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/circulation-admise.png" alt="" class="panneau">
+                Circulation admise dans les 2 sens aprés une section de chaussée à sens unique
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-niveau.png" alt="" class="panneau">
+                Passage à niveau avec barrières
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-niveau-sans.png" alt="" class="panneau">
+                Passage à niveau sans barrières
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-niveau-unique.png" alt="" class="panneau">
+                Passage à niveau à voie unique
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/passage-niveau-plusieurs.png" alt="" class="panneau">
+                Passage à niveau à 2 ou plusieurs voies
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/voie-ferree.png" alt="" class="panneau">
+                Voies ferrés établies sur la chaussée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/non-precis.png" alt="" class="panneau">
+                Danger non précisé
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/risque-verglas.png" alt="" class="panneau">
+                Risque de verglas ou de neige
+            </div>
+        
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-100m.png" alt="" class="panneau">
+                Les signaux de danger sont placés à 150 m de l'endroit dangereux. Une distance inférieure ou supérieure est indiquée sur un panneau additionnel
+            </div>
+     
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-10-km.png" alt="" class="panneau">
+                La longueur d'une section dangereuse peut être indiquée par un panneau additionnel.
+                <br>
+                Dans ce cas, le danger commence à 150 m
+            </div>
+        </div>
+       
+
+        <div class="encadrer">
+            <h3>Signaux relatif à la priorité</h3>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/ceder-passage.png" alt="" class="panneau">
+                Céder le passage (à droite et à gauche)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/annonce-ceder-passage.png" alt="" class="panneau">
+                Annonce d'un céder le passage
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-stop.png" alt="" class="panneau">
+                Marquer l'arrêt et céder le passage
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/annonce-stop.png" alt="" class="panneau">
+                Annonce d'un STOP
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/ceder-passage-cycliste.png" alt="" class="panneau">
+                Les cyclistes doivent céder le passage. (Ne concerne pas les voitures).
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/cyclistes-cyclos-idem.png" alt="" class="panneau">
+                IDEM pour les cyclistes et cyclos
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/cylistes-cyclos-2-sens.png" alt="" class="panneau">
+                Les cyclistes ou cyclos circulent dans les 2 sens sur la voie abordée (concerne tous les conducteurs)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/voie-prioritaire.png" alt="" class="panneau">
+                Voie prioritaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/fin-voie-prioritaire.png" alt="" class="panneau">
+                Fin de voie prioritaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/annonce-fin-voie-prioritaire.png" alt="" class="panneau">
+                Annonce la fin de la voie prioritaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/priorité-passage.png" alt="" class="panneau">
+                Priorité de passage
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/trace-voie-prioritaire.png" alt="" class="panneau">
+                Tracé de la voie prioritaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/priorité-droite-applicable.png" alt="" class="panneau">
+                Carrefour où la priorité de droite est applicable. (Céder le passage à droite)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/etroit-ceder-passage.png" alt="" class="panneau">
+                Passage étroit. Céder le passage au sens opposé
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/etroit-priorite.png" alt="" class="panneau">
+                Passage étroit. Priorité par rapport au sens opposé
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/cyclistes-franchir-droite.png" alt="" class="panneau">
+                Autorise les cyclistes à franchir le feu rouge pour tourner à droite
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/cyclistes-franchir-droit.png" alt="" class="panneau">
+                Autorise les cyclistes à franchir le feu rouge pour continuer tout droit
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Signaux d'interdiction</h3>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/sens-interdit.png" alt="" class="panneau">
+                Sens interdit pour tout conducteur
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/accés-interdit.png" alt="" class="panneau">
+                Accés interdit, dans les 2 sens, à tout conducteur
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-véhicules-large.png" alt="" class="panneau">
+                Accés interdit aux véhicules "larges" à moteur
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-quad.png" alt="" class="panneau">
+                Accés interdit aux quads
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-moto.png" alt="" class="panneau">
+                Accés interdit aux motos
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-cyclos.png" alt="" class="panneau">
+                Accés interdit aux cyclos
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-cyclistes.png" alt="" class="panneau">
+                Accés interdit aux cyclistes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-attelés.png" alt="" class="panneau">
+                <img src="../../assets/image/apprendre-image/acces-interdit-chevaux.png" alt="" class="panneau">
+                Accés interdit aux véhicules attelés / aux cavaliers
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-charrettes.png" alt="" class="panneau">
+                Accés interdit aux charrettes à bras
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-pietons.png" alt="" class="panneau">
+                Accés interdit aux piétons
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-masse.png" alt="" class="panneau">
+                Accés interdit aux véhicules dont la masse en charge dépasse la masse indiquée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-autocar.png" alt="" class="panneau">
+                Accés interdit aux autocars
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-transport-choses.png" alt="" class="panneau">
+                Accés interdit aux véhicules affectés au transport de choses
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-transport-chose-masse.png" alt="" class="panneau">
+                Interdit au transport de chose dont la masse en charge dépasse la masse indiquée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-transport-dangereuse.png" alt="" class="panneau">
+                Accés interdit au transport de marchandises dangereuses
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-marchandises-dangereuse-inflammables.png" alt="" class="panneau">
+                Accés interdit au transport de marchandises dangereuse inflammables ou explosives
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-transport-pollution.png" alt="" class="panneau">
+                Accés interdit au transport de marchandises dangereuse de nature a poluer les eaux
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-longeur-max.png" alt="" class="panneau">
+                Accés interdit au véhicules ou trains de véhicules ayant, chargement compris, une longueur supérieur à celle indiquée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-véhicules-large.png" alt="" class="panneau">
+                Accés interdit au véhicules plus large
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-vehicules-hauteur.png" alt="" class="panneau">
+                Accés interdit au véhicules plus haut
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-gauche.png" alt="" class="panneau">
+                Interdiction de tourner à gauche au carrefour
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-droite.png" alt="" class="panneau">
+                Interdiction de tourner à droite au carrefour
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/acces-interdit-demi-tour.png" alt="" class="panneau">
+                Du signal au carrefour :  interdiction de faire demi-tour
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/interdiction-depasser.png" alt="" class="panneau">
+                Du signal au prochain carrefour :  interdiction de dépasser par la gauche un véhicule "large"
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/fin-interdiction-depassement.png" alt="" class="panneau">
+                Fin de l'interdiction
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/interdiction-camion-depasser-.png" alt="" class="panneau">
+                Du signal au prochain carrefour : interdiction aux camions de dépasser par la gauche un véhicule "large"
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/fin-interdiction-camion-depassement.png" alt="" class="panneau">
+                Fin de l'interdiction
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/vitesse-60.png" alt="" class="panneau">
+                Du signal au carrefour : vitesse limitée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/fin-vitesse-60.png" alt="" class="panneau">
+                Fin de la limite de vitesse
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/fin-interdiction.png" alt="" class="panneau">
+                Fin de toutes les interdictions
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-peage.png" alt="" class="panneau">
+                Interdiction de passer sans s'arrêter
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-cruise-control.png" alt="" class="panneau">
+                Du signal au prochain carrefour : interdiction d'utiliser le régulateur de vitesse croisière
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/panneau-fin-cruise-control.png" alt="" class="panneau">
+                Fin de l'interdiction
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/interdiction-non-applicable-cycliste.png" alt="" class="panneau">
+                L'interdiction n'est pas applicable aux cyclistes
+            </div>
+
+            <div class="text-content">
+                <div class="colonne-panneau">
+                    <img src="../../assets/image/apprendre-image/excepte-cycliste-cyclos-p.png" alt="" class="panneau">
+                    <img src="../../assets/image/apprendre-image/excepte-cyclistes-cyclos-a.png" alt="" class="panneau">
+                    <img src="../../assets/image/apprendre-image/exepte-cyclistes-cylos-a-p.png" alt="" class="panneau">
+                </div>
+                L'interdiction n'est pas applicable aux cyclistes et cyclos
+            </div>                      
+        </div>
+
+        <div class="encadrer">
+            <h3>Signaux d'obligation</h3>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-de-suivre-la-direction-indiquée.png" alt="" class="panneau">
+                Obligaton de suivre la direction indiquée
+                <br>
+                Si placé sur un obstacle, obligation de passer du côté indiqué par la fléche
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-d'aller-tout-droit-.png" alt="" class="panneau">
+                Obligaton de continuer tout droit
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-de-suivre-la-direction-indiquée.png" alt="" class="panneau">
+                Obligaton de suivre une des directions indiquées
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-sens-giratoire.png" alt="" class="panneau">
+                Sens giratoire obligatoire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-piste-cyclabe.png" alt="" class="panneau">
+                Piste cyclabe obligatoire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-pyste-cyclabe-obligatoire-classe-b.png" alt="" class="panneau">
+                La piste cyclabe doit être empruntée par les cyclos à 2 roues classe B et/ou Speed pedelecs
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-piste-cyclabe-classe-b.png" alt="" class="panneau">
+                La piste cyclabe ne peut pas être empruntée par les cyclos à 2 roues classe B et/ou Speed pedelecs
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-reserve-cycliste-pietons.png" alt="" class="panneau">
+                Partie réservée aux piétons, vélos et cyclos à 2 roues classe A
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-reserve-pietons-et-cycliste.png" alt="" class="panneau">
+                Partie réservée aux piétons et cyclistes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-obligatoire-pietons.png" alt="" class="panneau">
+                Chemin obligatoire pour les piéton
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/obligation-cavaliers.png" alt="" class="panneau">
+                Chemin obligatoire pour les cavaliers
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/interdiction-non-applicable-cycliste.png" alt="" class="panneau">
+                L'obligation n'est pas applicable aux cyclistes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/exepte-cyclistes-cylos-a-p.png" alt="" class="panneau">
+                L'obligation n'est pas applicable aux cyclistes et cyclos classe A et/ou Speed pedelecs
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Signaux d'indication</h3>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-aglo.png" alt="" class="panneau">
+                Commencement d'une agglomération
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-hors-aglo.png" alt="" class="panneau">
+                Fin d'une agglomération
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-zone-30.png" alt="" class="panneau">
+                Commencement d'une zone 30
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-zone-30.png" alt="" class="panneau">
+                Fin d'une zone 30
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-autoroute.png" alt="" class="panneau">
+                Commencement ou accés à une autoroute
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-autoroute.png" alt="" class="panneau">
+                Fin d'autoroute
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-tunnel.png" alt="" class="panneau">
+                Tunnel d'une longueur de plus de 500 m
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-route-automobile.png" alt="" class="panneau">
+                Route pour automobiles
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-route-automobile.png" alt="" class="panneau">
+                Fin de route pour automobiles
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-zone-residentielle-rencontre.png" alt="" class="panneau">
+                Zone résidentielle ou de rencontre
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-zone-residentielle-rencontre.png" alt="" class="panneau">
+                Fin zone résidentielle ou de rencontre
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fleches-chaussee.png" alt="" class="panneau">
+                Flèches sur la chaussée
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-zone-avancee-cycliste-cyclos.png" alt="" class="panneau">
+                Zone avancée pour cyclistes et cyclos à 2 roues
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-choix-direction.png" alt="" class="panneau">
+                Choix d'une direction. (portique)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-bande-bus.png" alt="" class="panneau">
+                Bande bus
+            </div>
+            
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-bande-bus-tram.png" alt="" class="panneau">
+                Site spécial franchissable
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-sens-unique.png" alt="" class="panneau">
+                Voie publique à sens unique
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-passage-autorise-droite-gauche.png" alt="" class="panneau">
+                Passage autorisé à droite ou à gauche
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-numero-route.png" alt="" class="panneau">
+                Numéro d'une route ordinaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-numero-autoroute.png" alt="" class="panneau">
+                Numéro d'une autoroute
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-numero-route-internationnale.png" alt="" class="panneau">
+                Numéro d'une route internationnale
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-numero-ring.png" alt="" class="panneau">
+                Numéro d'un ring
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-signal-preavis-liste.png" alt="" class="panneau">
+                <img src="../../assets/image/apprendre-image/indication-signal-preavis-route.png" alt="" class="panneau">
+                Signal de préavis
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-signal-direction.png" alt="" class="panneau">
+                Signal de direction
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-signal-déviation.png" alt="" class="panneau">
+                Signal de préavis : déviation
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-localite.png" alt="" class="panneau">
+                Signal de localité (ne pas confondre avec agglomération)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-voie-sans-issue.png" alt="" class="panneau">
+                Voie sans issue
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-voie-sans-issue-excepte.png" alt="" class="panneau">
+                Voie sans issue, excepté pour les piétons et cyclistes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-travaux.png" alt="" class="panneau">
+                Fin des travaux
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-passage-pietons.png" alt="" class="panneau">
+                Passage pour piétons
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-passage-cycliste.png" alt="" class="panneau">
+                Passage pour byciclette et cyclos à 2 roues
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-suivi-cycliste-droite.png" alt="" class="panneau">
+                Signal indiquant aux conducteurs qui changent de direction que des vélos et des cyclos à 2 roues suivent la même voie publique
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-issue-secour.png" alt="" class="panneau">
+                Issue de secours dans les tunnels
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-sanitaire.png" alt="" class="panneau">
+                Etablissement sanitaire
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-poste-secour.png" alt="" class="panneau">
+                Poste de secours
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-exctincteurpng.png" alt="" class="panneau">
+                Exctincteur
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-reduction-bande.png" alt="" class="panneau">
+                Réduction du nombre de bandes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-evitement.png" alt="" class="panneau">
+                Évitement
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-traversee-berne-central.png" alt="" class="panneau">
+                Traversée de la berne centrale
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-circulation-2-sens.png" alt="" class="panneau">
+                Circulation dans les deux sens
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-dodane.png" alt="" class="panneau">
+                Dispositif(s) surélevé(s)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-reglementation-bande.png" alt="" class="panneau">
+                Réglementation par bande
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-radio.png" alt="" class="panneau">
+                Radio donnant des infos routières
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-piste-detresse.png" alt="" class="panneau">
+                Piste de détresse
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-retrecissement.png" alt="" class="panneau">
+                Rétrécissement ayant l'importance d'une bande
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-SOS.png" alt="" class="panneau">
+                Garage
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-reserve-pietons-cyclistes-cavaliers-speed.png" alt="" class="panneau">
+                Chemin réservé aux piétons, cyclistes, cavaliers et speed pedelecs
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-chemin-reserve-pieton-cycliste.png" alt="" class="panneau">
+                Chemin réservé aux piétons et cyclistes
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-chemin-reserve-agricoles.png" alt="" class="panneau">
+                Chemin réservé aux véhicules agricoles, piétons, cyclistes, cavaliers et speed pedelecs
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-chemin-reserve.png" alt="" class="panneau">
+                Fin de chemin réservé
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-zone-pietonnes.png" alt="" class="panneau">
+                Zone piétonne
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-zone-pietonne.png" alt="" class="panneau">
+                Fin zone piétonne
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-autoriation-camion-depassement.png" alt="" class="panneau">
+                Autorisation de dépasser (pour les camions)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-autorisation-camion-depassement.png" alt="" class="panneau">
+                Fin de l'autorisation de dépasser (pour les camions)
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-rue-cyclabe.png" alt="" class="panneau">
+                Rue cyclabe
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-rue-cyclabe.png" alt="" class="panneau">
+                Fin rue cyclabe
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-basse-emission.png" alt="" class="panneau">
+                Début d'une zone de basses émissions
+            </div>
+
+            <div class="text-content">
+                <img src="../../assets/image/apprendre-image/indication-fin-basse-emission.png" alt="" class="panneau">
+                Fin d'une zone de basses émissions
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Validité des signaux</h3>
+
+            <div class="text-content">
+                Les signaux sont placés à droite (sauf les signaux d'obligation)
+                <br>
+                Parfois au dessus des bandes = valable pour la bande
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Réglementation par bande</div>
+                Les signaux placés d'un signal indiquant des bandes ne concernent que la bande dans laquelle ils sont placés
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Validité zonale</div>
+                (pour les signaux d'interdiction) : le signal de zone reste valable après un carrefour
+                <br>
+                Il y a toujours un signal de fin de zone
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Limitation à la sortie</div>
+                Lorsqu'un signal ne concerne qu'une sortie de chaussée divisée en bandes, il est complété par un panneau additionnel du modèle suivant
+                <img src="../../assets/image/apprendre-image/validité-signaux-fleches.gif" alt="" class="panneau">
+            </div>  
+
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./marques-routieres.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+        
+
+    </div>
+
+    <!-- LIEN LIE POUR LE javascript -->
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

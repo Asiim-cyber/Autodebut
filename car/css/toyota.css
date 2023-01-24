@@ -1,0 +1,80 @@
+/* page css de toyota  */
+body {
+
+    background-color: #262626;
+    
+ 
+
+}
+
+/* navbar */
+.nav {
+
+    color: blueviolet;
+}
+
+.top {
+    
+    
+    margin: auto;
+    padding: auto;
+    width: 10%;
+    border: 3px solid green;
+
+}
+
+.image {
+
+
+    
+    
+    
+}
+
+.toyota_text {
+
+   
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 70%;
+    color:rgb(216, 216, 216);
+    border: 1px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.millieu {
+
+color: white;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 150%;
+
+}
+.centre {
+
+    display: flex;
+    flex-wrap: nowrap;
+    border: 3px solid green;
+    margin: auto;
+    width: 80%;
+
+}
+
+.gauche {
+
+    border: 1px solid blue;
+    margin: auto;
+
+}
+
+
+.droite {
+
+    border: 1px solid gold;
+    margin: auto;
+    
+
+
+}

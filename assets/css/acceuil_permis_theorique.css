@@ -1,0 +1,374 @@
+/* Import des bibliothéques */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+body {
+
+    
+    background-color: #E0E0E0;
+    background-image: url('../image/route-66.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    -webkit-user-drag: none;
+    -webkit-user-select: none; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+  
+.topnav {
+  overflow: hidden;
+  background-color: rgba(21, 20, 20, 0.332);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #202020;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.065);
+}
+
+img {
+
+  width: 100px;
+  border-radius: 50px;
+
+}
+
+i {
+
+  margin-right: 8px;
+
+}
+
+.active {
+
+  float: left;
+  text-align: center;
+  padding: auto;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+
+a.login {
+
+  padding: 12px 40px;
+  background-color: rgba(195, 32, 32, 0.368);
+  float: right;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.login:hover {
+
+  background-color: rgba(246, 58, 58, 0.527);
+  color: snow;
+  
+
+}
+
+
+#millieu_de_page {
+
+    margin: 170px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+
+}
+
+
+
+.card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 250px 200px 90px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: #E54B4B;
+  color: #FFFFFF;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card-image {
+  grid-area: image;
+  background: url("../image/panneau.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+.card-image2 {
+  grid-area: image;
+  background: url("../image/sentrainer.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+.card-image3 {
+  grid-area: image;
+  background: url("../image/salle-examen.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+.card-text {
+  grid-area: text;
+}
+
+.card-text3 {
+  grid-area: text;
+  font-size: 22px;
+}
+
+
+.card-stats {
+  grid-area: stats;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #201E1F;
+  color: #FFFFFF;
+}
+
+
+
+.card-text p {
+  color: black;
+  font-size:25px;
+}
+
+.card-text3 p {
+  color: black;
+  font-size:25px;
+}
+
+.card-text h2 {
+  margin-top:25px;
+  font-size:40px;
+}
+
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding:10px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.value {
+
+  font-weight: bolder;
+
+}
+
+
+/*
+###################################
+### CSS POUR PC PORTABLE 16/9 #####
+################################### 
+*/
+
+@media only screen and (max-width: 1280px) {
+
+  .body {
+
+    
+
+
+  }
+
+  #millieu_de_page {
+
+    margin-top: 170px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+
+}
+
+
+
+}
+
+/*###  css pour iphone 12 pro  390PX ###*/
+@media screen and (max-width: 390px) {
+
+  body {
+
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+
+  }
+
+  #millieu_de_page {
+
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+  }
+
+  .card {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 285px;
+    grid-template-rows: 147px 190px 82px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;    
+    
+  }
+
+}
+
+
+
+/* @media screen and (max-width: 900px) {
+
+  #millieu_de_page {
+
+    margin-right: 20px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 80%;
+    border: 1px solid red;
+    
+
+    
+
+  }
+
+  
+
+  .card {
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-bottom: 40px;
+    justify-content: center;
+    border: 1px solid green;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-position-x: 5%;
+    font-size: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+
+
+
+} */
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .fa {
+
+    margin-right: 0;
+
+  }
+}

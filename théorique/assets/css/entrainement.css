@@ -1,0 +1,352 @@
+/* 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 17/09/2022
+QUOI ? PAGE D'ACCEUIL DE L'ONGLET ENTRAINEMENT (CSS)  
+*/
+
+/* IMPORT DES BIBLIOTHEQUES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+body {
+
+    background-color: #202020;
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.topnav {
+
+    overflow: hidden;
+    background-color: rgba(21, 20, 20, 0.332);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-bottom: 1px solid #202020;
+
+}
+  
+.topnav a {
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 20px;
+
+}
+  
+.topnav a:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.065);
+
+}
+  
+img {
+    
+    padding: 5px;
+    width: 70px;
+    border-radius: 50px;
+  
+}
+  
+i {
+  
+    margin-right: 8px;
+  
+}
+    
+.active {
+  
+    float: left;
+    text-align: center;
+    padding: auto;
+  
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  a.login {
+  
+    padding: 12px 40px;
+    background-color: rgba(195, 32, 32, 0.368);
+    float: right;
+    transition: all 0.1s ease;
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a.login:hover {
+  
+    background-color: rgba(246, 58, 58, 0.527);
+    color: snow;
+    
+  
+  }
+
+.main {
+
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.container {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.title {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.maj-letters {
+
+  color: #E54B4B;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 800;
+
+}
+
+.letters {
+
+  font-size: 100px;
+  text-align: center;
+
+}
+
+.rainbow {
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+
+
+
+  --border-size: 0.3rem;
+  border: var(--border-size) solid transparent;
+
+  /* Paint an image in the border */
+  border-image: conic-gradient(
+      from var(--angle),
+      #d53e3300 0deg 90deg,
+      #ffffff 0deg 180deg,
+      #00000000 180deg 270deg,
+      #E54B4B 270deg 360deg
+    )
+    1 stretch;
+ 
+} 
+
+.description {
+
+  color: snow;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 20px;
+
+
+}
+
+.button {
+
+    background-color: #E54B4B;
+    border: 2px solid #202020;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.button:hover {
+
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; 
+  
+}
+
+/* 
+###################################
+#### css pour iphone 10 414 PX ####
+###################################
+*/
+
+@media only screen and (max-width: 414px) {
+
+  .main {
+
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+
+  }
+
+  .title {
+
+    border-radius: 100px;
+    padding: 20px;
+    width: 80%;
+
+  }
+
+  .maj-letters {
+
+    font-size: 45px;
+
+  }
+
+  .letters {
+
+    font-size: 45px;
+
+  }
+
+  .rainbow {
+
+    width: 80%;
+
+  }
+
+  .container {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    justify-content: space-between;
+
+  }
+
+  .button {
+
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 100px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+.topnav {
+
+  padding: 10px;
+
+}
+
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+}
+
+@media screen and (max-width: 600px){
+.topnav a:not(:first-child) {
+    display: none;
+}
+}
+
+
+
+
+
+/* Animate when Houdini is available */
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes opacityChange {
+    to {
+      --opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .rainbow {
+    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+  }
+
+
+
+}
+
+
+
+
+

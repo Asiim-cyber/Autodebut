@@ -1,0 +1,182 @@
+<!-- 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 13/09/2022
+QUOI ? CHAPITRE RESPECT DU CODE - INFRACTIONS
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- lien -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    
+    <!-- en-tête du doc -->
+    <title>Auto-début - Respect du code/Injonctions</title>
+</head>
+<!-- page html -->
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+
+        <!-- TITRE -->
+        <h1 id="titre">Respect du code infraction</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        <div class="encadrer">
+            <h3>Agents qualifiés</h3>
+
+            <div class="text-content">
+                Policier, douanier, police militaire,...
+                <br>
+                Certains agents des sociétés de transport mais seulement pour la circulation bus/tram
+            </div>
+
+        </div>
+
+        <div class="encadrer">
+            <h3>Personnes habilités</h3>
+
+            <div class="text-content">
+                Personnes qui accompagnent des groupes : Signaleur, capitaine de route, surveillant habilité, etc.
+                <br>
+                Vous devez obéir a leurs indications
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Types d'infractions</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Administratives</div>
+                stationnement payant ou a durée limitée
+                <br>
+                Conséquence : amande administrative
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">1er degré</div>
+                caractère peu dangereux
+                <br>
+                Conséquence : perception immédiate ou transaction
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">2éme degré</div>
+                mettre indirectement en danger la sécurité
+                <br>
+                Conséquence : perception immédiate, transaction ou tribunal
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">3ème degré</div>
+                mettre directement en danger la sécurité
+                <br>
+                Conséquence : perception immédiate, transaction ou tribunal
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">4ème degré</div>
+                cause presque irrémédiablement des dommages physiques lors d'un accident
+                <br>
+                Conséquence : tribunal
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Majeures</div>
+                délit de fuite, rouler sans permis, fausse déclaration pour l'obtention du permis, ivresse, imprégnation, drogue, détecteur de radar, accident avec blessé
+                <br>
+                Conséquence : tribunal
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Les peines</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Perception immédiate</div>
+                montant à payer dans les 5 jours
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Transaction</div>
+                montant à payer; envoyé par le procureur du Roi
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Tribunal</div>
+                le juge peut/doit vous condamner à une amende, une peine de prison, une déchéance avec éventuellement des examens de réintégration
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Déchéance</h3>
+
+            <div class="text-content">
+                Vous devez remettre votre permis pour une durée variant de 8 jours à vie
+                <br>
+                Prononcée par le juge au tribunal; parfois plusieurs mois après les faits
+                <br>
+                <br>
+                La déchéance prend cours le 5ème jour après le prononcé (cause physique : dès le prononcé)
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Déchéance obligatoire</div>
+                infraction du 4ème degré; délit de fuite avec blessé; infractions majeures avec récidive;
+                excès de vitesse de plus de 40 km/h (30 km/h en agglo, zone 30, zone résidentielle)
+                <br>
+                Titulaire d'un permis B depuis moins de 2 ans : également pour une infraction du 3ème degré
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Retrait immédiat</h3>
+
+            <div class="text-content">
+                Au moment des faits, l'agent, après avoir consulté le procureur, vous retire le permis immédiatement
+                <br>
+                Ordonné par un Procureur du Roi
+                <br>
+                Excécuté par un agent qualifié
+                <br>
+                Durée de 15 jours à 6 mois
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./injonction.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+    </div>
+
+    <!-- LIEN LIE POUR LE javascript -->
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,471 @@
+/* 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 11/09/2022 (DERNIERE MODIF)
+QUOI ? CSS DES PAGES POUR APPRENDRE 
+*/
+
+
+/* Import des bibliotheques */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+html,body {
+
+    background: #4EA5D9;
+    color: #201E1F;
+    margin: 0;
+    padding: 0;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.lien {
+
+  text-decoration: none;
+
+}
+
+.topnav {
+  
+  overflow: hidden;
+  background-color: #4EA5D9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #202020;
+
+}
+
+.topnav a {
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+
+}
+
+.topnav a:hover {
+  
+  color: rgb(255, 255, 255);
+  background-color: #2B50AA;
+
+}
+
+i {
+
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fa-circle-right {
+
+  margin-right: 0;
+
+}
+
+.logo {
+
+  width: 100px;
+  border-radius: 100px;
+
+}
+
+.active {
+
+  float: left;
+  text-align: center;
+  padding: auto;
+
+}
+
+.topnav .icon {
+
+  display: none;
+  margin-right: 10px;
+
+}
+
+a.login {
+
+  padding: 12px 40px;
+  background-color: rgba(195, 32, 32, 0.368);
+  float: right;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a.login:hover {
+
+  background-color: rgba(246, 58, 58, 0.527);
+  color: snow;
+  
+
+}
+
+.back {
+
+  position: absolute;
+  margin-top: 570px;
+  left: 0px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #201E1F;
+  color: #E0E0E0;
+  border: 3px solid #E0E0E0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+
+}
+
+.back:hover {
+
+  background-color: #4EA5D9;
+  color: #fdfdfd;
+  border: 3px solid #fdfdfd;
+  
+}
+
+#header {
+
+    background-color: #2B50AA;
+    padding: 50px 10px;
+    color: white;
+    text-align: center;
+    font-size: 90px; 
+    font-weight: bold;
+    position: fixed;
+    top: 105px;
+    width: 100%;
+    height: 90%;
+    transition: 0.2s;
+
+}
+
+#titre {
+
+  margin-top: 0;
+
+}
+
+h3{
+
+  font-size: 25px;
+  text-align: center;
+
+ }
+ 
+ 
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+.contenuPage {
+
+    border: 1px solid #201E1F;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.encadrer {
+
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(80, 80, 80);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text-content {
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 18px;
+
+}
+
+.text-content-block {
+
+  display: block;
+  align-items: center;
+  text-align: left;
+  margin-top: 50px;
+  font-size: 18px;
+
+}
+
+.subtitle {
+
+  background-color: #4EA5D9;
+  font-weight: bold;
+  border: 1px solid #4EA5D9;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: max-content;
+  margin-right: 15px;
+  margin-bottom: 5px;
+
+}
+
+img {
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+  align-items: center;
+  text-align: center;
+  width: 20px;
+
+}
+
+.panneau {
+
+  width: 100px;
+
+}
+
+.imgDroite {
+
+  justify-content: flex-end;
+  margin-top: 5px;
+
+}
+
+.imgRoute {
+  justify-content: flex-end;
+  width: 120px;
+
+}
+
+.aglo {
+
+  width: 80px;
+  margin-top: 3px;
+
+}
+
+.velo {
+
+  width: 50px;
+  margin-top: 4px;
+
+}
+
+
+button {
+
+  padding: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ;
+
+}
+
+button:hover {
+
+background-color: white;
+color: black;
+border: 3px solid white;
+
+}
+
+button .btn-start {
+ 
+  padding: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ;
+
+}
+
+a {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  border: 3px solid black;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+
+}
+
+a:hover {
+
+  color: rgb(8, 7, 7);
+  background-color: rgb(233, 229, 229);
+
+}
+
+
+.deleteScroll {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+
+
+/* 
+###################################
+#### css pour iphone 10 414 PX ####
+###################################
+*/
+
+@media only screen and (max-width: 414px) {
+
+  #header {
+
+    font-size: 15px;
+
+  }
+
+  #titre {
+
+    margin-top: 20vh;
+    font-size: 35px;
+
+  }
+
+  button {
+
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 25px;
+
+  }
+
+  .contenuPage {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 0;
+
+  }
+
+  .back {
+
+    padding: 15px;
+    font-size: 20px;
+    left: 0;
+    display: none;
+
+  }
+
+  .encadrer {
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carte-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carte-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carte-img {
+  width: 100%;
+  text-align: center;
+}
+
+.img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+body {
+
+    background-color: grey;
+    display: flex;
+    overflow: hidden;
+    width: 100vh;
+    
+}

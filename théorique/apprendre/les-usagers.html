@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- lien -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- titre de la page -->
+    <title>Auto-début - Les usagers</title>
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre">Les usagers et les véhicules</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+
+      
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        <div class="encadrer">
+            <h3>Applicable pour tous les USAGERS (conducteurs + piétons)</h3>
+
+            <div class="text-content">
+                Le code de la route est applicable pour tous les usagers. Pas pour les véhicules sur Rails
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Piétons</h3>
+
+            <div class="text-content">
+                Cyclomoteur ou bicyclette non monté, brouette, voiturette pour handicapé,...
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Conducteurs</h3>
+
+            <div class="text-content">
+                De cyclo, moto, voiture, camion, autocar; mais aussi de véhicules sans moteurs (vélos) ou  d'animaux (trait, charge, monture, bestiaux);
+            </div>
+        </div>
+
+        
+        <div class="encadrer">
+            <h3>Véhicule pour le transport de personnes</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Cyclomoteur classe A</div>
+                2 ou 3 roues; max 25 km/h; cylindrée max 50 cc ou électrique
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Cyclomoteur classe B</div>
+                2, 3 ou 4 roues; max 45 km/h; cylindrée max 50 cc ou électrique
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Speed pedelecs</div>
+                vélo électrique: max 45 km/h; cylindrée max 50 cc ou électrique
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Motocyclette</div>
+                2 roues; plus de 45 km/h ou plus de 50 cc
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Voiture</div>
+                max 8 places passager + conducteur
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Autocar</div>
+                plus de 8 places + conducteur
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Véhicule pour le transport de choses</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Camionnette</div>
+                max 3500 kg de MMA
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Camion</div>
+                plus de 3500 kg de MMA
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Remorque et train de véhicules</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Remorque</div>
+                véhicule destiné à être remorqué
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Train de véhicules</div>
+                véhicule + remorque
+                <br>
+                Pas de remorque pour une moto avec side-car sauf si le side-car posséde un frein
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Chargement des véhicules</h3>
+
+            <div class="text-content">
+                Ne pas nuire à la visibilité, dégrader la route, traîner ou tomber, compromettre la stabilité, masquer les feux,...
+                <br>
+                Choses lourdes : dans le fond du coffre, pas sur le toit
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Dimensions maximales</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Hauteur</div>
+                max 4 m depuis le sol (cyclo - moto : 4 m)
+                <br>
+                <img src="../../../image/apprendre-image/hauteur-4.jpg" alt="" width="80px">
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">Largeur</div>
+                max 2,55 m (cyclo: 1 m - moto: 1,25m)
+                <br>
+                <img src="../../../image/apprendre-image/largeur-2,55.png" alt="" width="80px">
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">Longueur</div>
+                <img src="../../../image/apprendre-image/longueur-10m.png" alt="" width="80px">
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">A l'avant</div>
+                rien ne peut dépasser l'avant du véhicule
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">A l'arrière</div>
+                max 1 m (cyclo - moto : 0,50 m)
+                <br>
+                max 3 m avec le panneau spécial (la nuit, ajouter de l'éclairage)
+            </div>   
+            
+            
+        </div>
+
+        <div class="encadrer">
+            <h3>Les différentes masses</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Tare</div>
+                le véhicule vide
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Charge utile</div>
+                ce qui peut être chargé dans le véhicule (invariable)
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">MMA</div>
+                Masse Maximale Autorisée : tare + charge utile = ce que pèse le véhicule chargé au MAXIMUM (invariable)
+            </div>
+            
+            <div class="text-content">
+                <div class="subtitle">Masse en charge</div>
+                masse RÉELLE (le poids du moment) = véhicule + conducteur + passagers + choses transportées (variable)
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Accessoires obligatoires (voitures)</h3>
+
+            <div class="text-content">
+            <div class="subtitle">Triangle de danger</div>
+            rétro-réfléchissant + pied métallique
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Extincteur</div>
+                1 kg de poudre; à portée de main du conducteur; attention à la date de validité. Un plomb indique qu'il n'a jamais été utilisé.
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Trousse de secours</div>
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Gilet rétro réfléchissant</div>
+                1 pour le conducteur
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Accessoires interdits</h3>
+
+            <div class="text-content">
+                Détecteur de radar (appareil qui détecte les ondes des radars)
+            </div>
+
+            <div class="text-content">
+                Ornement dangeureux
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Accessoires conseillés</h3>
+
+            <div class="text-content">
+                Roue de secours - cric - outils (clefs); ampoules - fusilbles; câbles de remorquage; câbles de démarrage (batterie); craie grasse - constat d'accident; disque de stationnement - monnaie; gant - lampe de poche
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Documents pour le véhicule</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Certificat de conformité</div>
+                reçu avec le véhicule
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Carte d'assurance</div>
+                (carte verte) : reçu de la compagnie d'assurance
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Certificat d'immatriculation</div>
+                reçu avec la plaque d'immatriculation
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Certificat de contrôle technique</div>
+                lorsque le véhicule a 4 ans (pas pour cyclos/motos) il faut les documents originaux, pas de photocopies
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Documents pour le conducteur</h3>
+
+            <div class="text-content">
+                Titulaire et porteur de la carte d'identité et du permis de conduire (ou permis provisoire)
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Limite du permis provisoire</div>
+                en Belgique, pas de remorque, interdit les nuits et veilles des week-end et jours fériés de 22h à 6h, max 2 passagers ayant un permis européen depuis 8 ans, pas de transport commercial
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./les-pneus.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+      </div>
+
+      <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

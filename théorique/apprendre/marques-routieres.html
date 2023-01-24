@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- lien -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    
+    <!-- en-tête de la page -->
+    <title>Auto-début - Marques routières</title>
+
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre">Marques routières</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        
+        <div class="encadrer">
+
+            <div class="carte">
+                <div class="carte-title">Ligne blanche continue</div>
+                <div class="carte-text">interdiction de franchir</div>
+                <div class="carte-img">
+                    <img src="../../assets/image/apprendre-image/ligne-blanche-continue.png" alt="" class="img">
+                </div>
+            </div>
+
+            <h3>Marques routières</h3>
+            
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ligne blanche continue
+                </div>
+                    interdiction de franchir   
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-blanche-continue.png" alt="ligne blanche continue">
+                </div>   
+            </div>
+        
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ligne blanche discontinue
+                </div>
+                interdiction de franchir, sauf pour dépasser, tourner à gauche, effectuer un demi-tour ou changer de bande
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-blanche-discontinue.png" alt="ligne blanche discontinu">
+                </div>
+            </div>
+            
+        
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ligne juxtaposées
+                </div>
+                tenir compte de la ligne qui se trouve de son côtés.
+                <br>
+                Les conducteurs qui ont franchi ces lignes pour dépasser peuvent les franchir à nouveau pour reprendre leur place normale sur la chaussée
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-juxtaposees.png" alt="ligne blanche juxtaposées">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bande "heure de pointe"
+                </div>
+                vous pouvez y circuler uniquement si une flèche verte pointant vers le bas est allumée au dessus de la bande
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bande-heure-pointe.png" alt="Bande d'heure de pointe">
+                </div>
+            </div>
+            
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ligne oranges
+                </div>
+                marquage provisoire qui rend sans effet les lignes blanches
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-orange.png" alt="Lignes orange">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bande bus
+                </div>
+                emprunter pour contourner un obstacle et à l'approche immédiate d'un carrefour pour tourner; traverser pour accéder ou quitter un emplacement de stationnement ou une propriété riveraine et dans les carrefours
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bande-bus.png" alt="Bande de bus">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                Les motos et les cyclos peuvent l'utiliser si le symbole figure dans le signal
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Site spécial franchissable
+                </div>
+                emprunter pour contourner un obstacle; traverser pour accéder ou quitter un emplacement de stationnement et dans les carrefours
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/" alt="">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                Les motos et les cyclos peuvent l'utiliser si le symbole figure dans le signal
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bord réel en blanc
+                </div>
+                Une ligne blanche continue tracée sur le bord réel de la chaussée, la bordure d'un trottoir ou d'un accotement en saillie pour les rendres plus apparents
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bord-reel-blanc.png" alt="Bord réel blanc">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bord réel en jaune discontinu
+                </div>
+                interdiction de stationner
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bord-reel-jaune.png" alt="Bord réel jaune discontinu">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bord fictif de la chaussée
+                </div>
+                la partie de la voie publique située au-delà de cette ligne est réservée à l'arrêt et au stationnement, sauf sur autoroutes et routes pour automobiles
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bord-fictif.png" alt="Bord fictif">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Bande cyclabe
+                </div>
+                une bande n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles constitue une piste cyclabe
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/bande-cyclabe-route.png" alt="Bande cyclabe">
+                </div>
+            </div>
+        </div>
+
+        <div class="encadrer">
+            <h3>Marques transversales</h3>
+            <div class="text-content-block">
+                <div class="subtitle">
+                    ligne d'arrêt
+                </div>
+                indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal STOP ou un feux rouge ou orange fixe
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-darret.png" alt="Ligne d'arrêt">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ligne constituée par des triangles blancs
+                </div>
+                indique l'endroit où les conducteurs doivent, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un triangle sur pointe
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-triangle-blanc.png" alt="Ligne céder le passage">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Passages pour piétons
+                </div>
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/passage-pieton-route.png" alt="Passage pour piétons">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Passages pour bicyclettes et de cyclos à 2 roues
+                </div>
+                constituées par des carrés ou des parallèlogrammes de couleur blanche
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/passage-bicyclettes-routes.png" alt="Passage pour bicyclettes et cyclos à 2 roues">
+                </div>
+            </div>
+
+        </div>
+        <div class="encadrer">
+            <h3>Autres remarques</h3>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Flèches de sélection
+                </div>
+                bande que les conducteurs doivent suivre pour s'emgager dans la direction indiquée par les flèches
+                <br>
+                Au carrefour, les conducteurs doivent suivre la ou une des directions indiquées
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/fleches-de-selection.png" alt="Flèches de sélection">
+                </div>  
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Zone avancée pour cyclistes et cyclos à 2 roues
+                </div>
+                zone délimitée par deux lignes d'arrêt.
+                <br>
+                Les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/ligne-blanche-velo.png" alt="Zone avancée pour vélos">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Flèches de rabattement
+                </div>
+                annoncent la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/fleches-rabattement.png" alt="Flèches de rabattement">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Arrêts d'autobus, de trolleybus ou de tram
+                </div>
+                indique la zone où le stationnement est interdit
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/arret-autobus.png" alt="Arrêt autobus">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Ilots directionnels et zone d'évitement
+                </div>
+                interdiction de circuler, s'arrêter ou stationner sur ces marques
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/" alt="">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Emplacements de stationnement
+                </div>
+                délimitent les emplacements que doivent occuper les véhicules
+                <div class="imgDroite">
+                    <img class="imgRoute" src="../../assets/image/apprendre-image/" alt="">
+                </div>
+            </div>
+
+            <div class="text-content-block">
+                <div class="subtitle">
+                    Marques en damier
+                </div>
+                arrêt et stationnement interdits
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./echelle-des-valeurs.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+    </div>
+
+
+    <!-- LIEN LIE POUR LE javascript -->
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!-- 
+QUI ? DUCHESNE GUILLAUME
+QUAND ? 07/09/2022 A 19H15
+QUOI ? CHAPITRE SUR LES CONDUCTEURS ET PASSAGERS
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LIEN LIÉ AU FICHIER HTML -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- EN-TÊTE DE LA PAGE -->
+    <title>Auto-début - Conducteurs et passagers</title>
+</head>
+<body class="deleteScroll" id="deleteScroll">
+
+    <!-- Navbar au dessus de la page -->
+    <div class="topnav" id="myTopnav">
+        <div class="active"><img class="logo" src="../../assets/image/Auto-début_logo.png" alt="logo du site"></div>
+        <a href="../../index.php"><i class="fa fa-fw fa-home"></i>Menu</a>
+        <a href="../../mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="../../créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
+        <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Me contacter</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- PAGE BLEU DE DÉMARAGE -->
+    <div id="header">
+        <!-- BOUTON RETOUR -->
+        <a href="../apprendre.php" class="back" id="retour">Retour<i class="fa-solid fa-right-to-bracket"></i></a>
+        <!-- TITRE -->
+        <h1 id="titre">Conducteurs et passagers</h1>
+        <button class="btn-start" id="start" onclick="descendreScroll()">Commencer le cours</button>
+    </div>
+
+
+    <!-- LE CONTENU DE LA PAGE -->
+    <div class="contenuPage">
+
+        <div class="encadrer">
+
+            <h3>Conducteurs et passagers des voitures</h3>
+
+            <div class="text-content">
+                Le nombre de passagers est limité au nombre de places
+                <br>
+                Pas de passagers sur les parties extérieures du véhicule
+                <br>
+                Largeur minimal à l'avant : conducteur 55cm, passager 40cm
+            </div>
+            
+        </div>
+
+        <div class="encadrer">
+            <h3>Ceinture</h3>
+
+            <div class="text-content">
+                Occuper les places équipées de ceinture en priorité
+                <br>
+                Utilisation obligatoire, à l'avant comme à l'arrière sauf: conducteur effectuant une marche arrière; obligation ministérielle pour cause médicale
+            </div> 
+            
+        </div>
+
+        <div class="encadrer">
+            <h3>Enfants</h3>
+
+            <div class="text-content">
+                Un seul enfant par place
+                <br>
+                Moins de 1,35m : obligé de transporter l'enfant dans un système de retenue adapté (taille, poids, âge) et homologué
+                <br>
+                Exceptionnellement, s'il ne s'agit pas de ses propres enfants, autorisation de transporter des enfants de plus de 3 ans à l'arrière avec la ceinture
+                <br>
+                Entre 1,35m et 1,50m : système de retenue ou ceinture
+            </div>
+
+        </div>
+
+        <div class="encadrer">
+
+            <h3>Véhicule non équipé de ceinture (ancêtre)</h3>
+        
+            <div class="text-content">
+                Pas d'enfant de moins de 3 ans, ni à l'avant, ni à l'arrière
+                <br>
+                Enfant de moins de 1,35m : à l'arrière
+            </div>
+            
+        </div>  
+        
+
+        <div class="encadrer">
+            <h3>Conducteurs et passagers des cyclomoteurs</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Equipement</div>
+                (conducteur + passager)
+                casque obligatoire
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Passagers</div>
+                Le conducteur doit avoir 18 ans
+                <br>
+                Le passager doit disposer d'un siège et de repose-pieds
+                <br>
+                Interdiction de prendre ou laisser prendre position en amazone
+                <br>
+                Le passager doit avoir les pieds sur les repose-pieds
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Enfants</div>
+                Jamais d'enfant de moins de 3 ans
+                Enfant de moins de 8 ans : utiliser un système de retenue
+            </div>
+
+        </div>
+
+        <div class="encadrer">
+            <h3>Conducteurs et passagers des motocyclettes</h3>
+
+            <div class="text-content">
+                <div class="subtitle">Equipement</div>
+                (conducteur ET passager, sauf moto avec habitacle)
+                <br>
+                Casque, gants, veste à manches longues et pantalon ou combinaison, bottes ou bottillons qui protègent les chevilles
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Passagers</div>
+                Interdiction de prendre ou laisser prendre la position en amazone
+                <br>
+                Le passager doit avoir les pieds sur les repose-pieds
+            </div>
+
+            <div class="text-content">
+                <div class="subtitle">Enfants</div>
+                Jamais d'enfant de moins de 3 ans
+                <br>
+                Enfant de moins de 8 ans : interdit si la cylindrée excède 125cc; autorisé si la cylindrée n'excède pas 125cc en utilisant un système de retenue
+            </div>
+        </div>
+
+        <!-- Bouton pour pouvoir passer au chapitre suivant -->
+        <div class="text-content">
+            <a href="./technique-de-conduite.html">Cours suivant<i class="fa-solid fa-circle-right"></i></a>
+        </div>
+
+    
+    <!-- LIEN javascript -->
+    <script src="./assets/js/index.js"></script>
+
+</body>
+</html>
