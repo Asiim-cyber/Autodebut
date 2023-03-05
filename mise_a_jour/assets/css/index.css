@@ -24,41 +24,70 @@ body {
      
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #D5FFD1;
-    backdrop-filter: blur(10px);
-    display: flex;
-    gap: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #202020;
+.sticky{
 
-  }
+  position: fixed;
+  top: 0;
+  z-index: 2;
   
-  .topnav a {
-    display: block;
-    position: relative;
-    color: #1BC536;
-    background-color: #E8E4E4;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: all 0.1s ease-in-out;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-  }
+}
+
+.topnav {
+
+  overflow: hidden;
+  background-color: rgba(21, 20, 20, 0.55);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 3px solid #000000;
+  position: sticky;
   
-  .topnav a:hover {
-    
-    background-color: rgba(136, 132, 132, 0.211);
-  }
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.065);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+img {
+
+  width: 100px;
+  border-radius: 50px;
+
+}
+
+i {
+
+  margin-right: 8px;
+
+}
+
+.active {
+
+  float: left;
+  text-align: center;
+  padding: auto;
+
+}
   
 .imgLogo {
   
@@ -67,26 +96,6 @@ body {
   
   }
   
-  i {
-  
-    margin-right: 8px;
-  
-  }
-  
-  .droite {
-
-
-    float: right;
-    width: 100%;
-
-  }
-  
-  .login {
-
-    float: right;
-    justify-content: end;
-
-  }
 
  .titre {
 
@@ -99,29 +108,6 @@ body {
 
  }
   
-  .topnav .icon {
-    display: none;
-  }
-  
-  a.login {
-  
-    padding: 12px 40px;
-    background-color: rgba(195, 32, 32, 0.368);
-    float: right;
-    transition: all 0.1s ease;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  a.login:hover {
-  
-    background-color: rgba(246, 58, 58, 0.527);
-    color: snow;
-    
-  
-  }
 
   .logo {
 
