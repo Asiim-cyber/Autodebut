@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ?>
@@ -144,7 +143,7 @@ session_start();
       
   <!-- lien javascript -->
   <script src="assets/js/entrainement.js" type="text/javascript" ></script>
-  <script src="./assets/js/questionQuiz1.js" type="text/javascript" ></script>
+  <script src="./assets/js/questionQuiz2.js" type="text/javascript" ></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   
