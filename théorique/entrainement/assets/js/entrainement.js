@@ -5,8 +5,11 @@ const quitter_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const option_list = document.querySelector(".option_list");
+// const numAlpha = document.querySelector(".numAlpha");
 const timeCount = quiz_box.querySelector(".timer .timer_sec");
+const timeLine = quiz_box.querySelector("header .timer_line");
 const result_box = document.querySelector(".result_box");
+const restart_btn = result_box.querySelector(".buttons .restart");
 const explanation_box = document.getElementById("explanation");
 var score = document.getElementById("score");
 let tickIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
@@ -45,6 +48,8 @@ continue_btn.onclick = ()=> {
 
     // cacher les informations du questionnaire
     info_box.classList.remove("activeInfo")
+    quiz_box.classList.remove("activeResult")
+    console.log("AAA")
 
     //afficher le quiz 
     quiz_box.classList.add("activeQuiz")
@@ -57,6 +62,33 @@ continue_btn.onclick = ()=> {
 
     //Commencer le timer 
     startTimer(15);
+
+    //Commencer le timer de la ligne
+    startTimerLine(0);
+
+}
+
+// condition si le bouton continue le questionnaire est cliquer
+restart_btn.onclick = ()=> {
+
+    // cacher les informations du questionnaire
+    info_box.classList.remove("activeInfo")
+    result_box.classList.remove("activeResult");
+
+    //afficher le quiz 
+    quiz_box.classList.add("activeQuiz")
+
+    // afficher les questions
+    showQuestions(0);
+
+    // afficher le numero de la  questions
+    queCounter(1);
+
+    //Commencer le timer 
+    startTimer(15);
+
+    //Commencer le timer de la ligne
+    startTimerLine(0);
 
 }
 
@@ -141,6 +173,8 @@ next_btn.onclick = ()=> {
         queCounter(que_numb);
         clearInterval(counter);
         startTimer(timeValue);
+        clearInterval(counterLine);
+        startTimerLine(widthValue);
         
     }   
     else {
@@ -162,6 +196,7 @@ next_btn.onclick = ()=> {
 
 // recevoir les questions et les elements de reponse
 function showQuestions(index) {
+
     option_list.innerHTML = '';
 
     const que_text = document.querySelector(".que_text");
@@ -170,7 +205,7 @@ function showQuestions(index) {
     for(let i = 0; i < questions[index].options.length; i++){
         option_list.innerHTML += '<div class="option">' + questions[index].options[i] + '<span></span></div>';
     }
-    
+
     que_text.innerHTML = que_tag;
     questionList = $(".option")
     for(let i = 0; i < questionList.length; i++){
@@ -257,6 +292,19 @@ function startTimer(time) {
     }
 
 }
+
+// FONCTION DE LA LIGNE DU TEMPS
+// function startTimerLine(time) {
+
+//     counter = setInterval(timer, 29);
+//     function timer() {
+//         time += 1;
+//         timeLine.style.width = time + "px";
+//         if (time > 549) {
+//             clearInterval(counterLine);
+//         }
+//     }
+// }
 
 
 

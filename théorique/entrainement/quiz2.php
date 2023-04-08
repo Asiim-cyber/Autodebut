@@ -10,7 +10,7 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- lien lié au fichier html -->
-  <link rel="stylesheet" href="./assets/css/quiz1.css">
+  <link rel="stylesheet" href="./assets/css/quiz.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
   <!-- titre de l'en-tête de la page -->
@@ -130,8 +130,10 @@ session_start();
       <span id="fail-or-success"></span>
     </div>
     <div class="buttons">
-      <button class="restart">Rejouer le questionnaire</button>
-      <button class="quit">Quitter le questionnaire</button>
+      <button class="restart" onclick="optionSelected()">Rejouer le questionnaire</button>
+      <a href="../entrainement.php">
+        <button class="quit">Quitter le questionnaire</button>
+      </a>  
     </div>
   </div>
       
