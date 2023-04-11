@@ -83,7 +83,7 @@ let questions = [
     //     numb: 7,
     //     points : 1,
     //     question : "Commettez-vous une infraction si vous configurez l'application de navigation de votre téléphone mobile pendant que vous conduisez ?",
-    //     image : '',
+    //     image : '<img src="../../assets/image/trafic/33519.jpg">',
     //     answer: "Oui",
     //     options: [
     //         "Oui",
@@ -313,13 +313,13 @@ let questions = [
     //     points : 5,
     //     question : "j'approche a ce carrefour, puis-je continuer ma route ?",
     //     image : '<img src="../../assets/image/trafic/B04D27.jpg">',
-    //     answer: "Non, il faut laisser la voiture a ma droite passer",
+    //     answer: "Non, la voiture a ma droite est prioritaire",
     //     options: [
     //         "Oui, le véhicule semble être à l'arrêt",
     //         "Oui je suis prioritaire pour pouvoir passer",
     //         "Non, la voiture a ma droite est prioritaire"
     //     ],
-    //     explanation : ""
+    //     explanation : "Aucun panneau m'indique que la priorité de droite n'est pas applicable de plus un panneau me le rappelle que la priorité de droite est applicable"
     // },
     // {
     //     numb: 26,
@@ -349,13 +349,13 @@ let questions = [
     // {
     //     numb: 28,
     //     points : 1,
-    //     question : "une question ?",
-    //     image : '<img src="../../assets/image/trafic/B02D37.jpg">',
-    //     answer: "2eme reponse",
+    //     question : "Qu'annonce ce signal ?",
+    //     image : '<img src="../../assets/image/apprendre-image/indication-tunnel.png">',
+    //     answer: "Un tunnel d'une longueur supérieur à 500 m",
     //     options: [
-    //         "1ere reponse stv",
-    //         "2eme reponse",
-    //         "3eme reponse"
+    //         "Un tunnel dans 150 m",
+    //         "Un tunnel",
+    //         "Un tunnel d'une longueur supérieur à 500 m"
     //     ],
     //     explanation : ""
     // },

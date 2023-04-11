@@ -33,7 +33,7 @@ QUOI ? HTML DE LA PAGE PRINICPAL (ACCEUIL)
             <img src="./assets/image/Auto-début_logo.png" alt="logo du site">
         </div>
         
-        <a href="./mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Nouveauté</a>
+        <a href="./mise_a_jour/"><i class="fa-solid fa-newspaper"></i>Actualité</a>
         <a href="./créateur/"><i class="fa-solid fa-user-tie"></i>Créateur</a>
         <a href="mailto:duchesne.guil@gmail.com"><i class="fa fa-fw fa-envelope"></i>Prendre Contact</a>
         <?php

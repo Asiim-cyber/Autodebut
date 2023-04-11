@@ -132,7 +132,7 @@ session_start();
     </div>
     <div class="buttons">
       <button class="restart">Rejouer le questionnaire</button>
-      <button class="quit">Quitter le questionnaire</button>
+      <a href="../entrainement.php"><button class="quit">Quitter le questionnaire</button></a>
     </div>
   </div>
       
