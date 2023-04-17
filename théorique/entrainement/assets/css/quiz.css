@@ -416,6 +416,7 @@ section .option_list .option:hover {
   font-size: 13px;
   line-height: 24px;
   pointer-events: none;
+  margin-left: auto;
 
 }
 
@@ -424,7 +425,7 @@ section .option_list .option:hover {
   color: #23903c;
   border-color: #23903c;
   background:  #d4edda;
-  margin-left: 15px;
+  margin-left: auto;
 
 }
 
@@ -433,7 +434,7 @@ section .option_list .option:hover {
   color: #a4283a;
   border-color: #a4283a;
   background: #f8d7da;
-  margin-left: 15px;
+  margin-left: auto;
 
 }
 
@@ -583,6 +584,7 @@ footer .btn-explanation:hover {
   font-size: 100px;
   color: #007bff;
   margin-bottom: 10px;
+  float: right;
 
 }
 
