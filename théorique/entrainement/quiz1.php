@@ -11,7 +11,7 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- lien lié au fichier html -->
-  <link rel="stylesheet" href="./assets/css/quiz.css">
+  <link rel="stylesheet" href="./assets/css/quiz1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
   <!-- titre de l'en-tête de la page -->
@@ -92,7 +92,6 @@ session_start();
         
       </div>
       <div class="option_list">
-      <!-- <div class="numAlpha">A| </div> -->
 
       <div class="option">
 
@@ -133,7 +132,7 @@ session_start();
     </div>
     <div class="buttons">
       <button class="restart">Rejouer le questionnaire</button>
-      <button class="quit" href="./entrainement.php">Quitter le questionnaire</button>
+      <a href="../entrainement.php"><button class="quit">Quitter le questionnaire</button></a>
     </div>
   </div>
       
@@ -145,7 +144,7 @@ session_start();
       
   <!-- lien javascript -->
   <script src="assets/js/entrainement.js" type="text/javascript" ></script>
-  <script src="./assets/js/questionQuiz1.js" type="text/javascript" ></script>
+  <script src="./assets/js/question.js" type="text/javascript" ></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   

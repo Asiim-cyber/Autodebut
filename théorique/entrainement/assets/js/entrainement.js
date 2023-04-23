@@ -264,6 +264,7 @@ function startTimer(time) {
             timeCount.textContent = "00";
             let correctAns = questions[que_count].answer;
             let allOptions = option_list.children.length;
+            score.innerHTML = parseInt(score.textContent) - (questions[que_count].points)
             for (let i = 0; i < allOptions; i++) {
 
                 if (option_list.children[i].textContent == correctAns) {
