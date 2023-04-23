@@ -646,7 +646,8 @@ img {
 }
 
 .selected{
-  border: 3px solid #004085 !important;
+  border: 5px solid #0164ce !important;
+  background-color: #0164ce56;
 }
 
 #div-score {
@@ -743,6 +744,96 @@ img {
 
 /* 
 ###################################
+#### css pour iphone SE 375 PX ####
+###################################
+*/
+
+@media only screen and (max-width: 375px) {
+
+  .start_btn {
+
+    transform: translate(-47%, -44%);
+
+  }
+  
+
+  .info_box {
+
+    font-size: 1px;
+
+  }
+
+  .info_box.activeInfo {
+
+    transform: translate(-47%, -40%) scale(0.85);
+    width: 100%;
+  }
+
+  .quiz_box.activeQuiz {
+
+    transform: translate(-48%, -48%) scale(1.04);
+
+  }
+
+  .quiz_box {
+
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+
+  }
+
+  .quiz_box header .title {
+
+    font-size: 15px;
+
+  }
+
+  .quiz_box section .que_text {
+
+    font-size: 20px;
+
+  } 
+
+  .quiz_box footer {
+
+    padding: 0 20px;
+    height: 10px;
+
+  }
+
+  img {
+
+    max-width: 332px;
+    max-height: 413px;
+
+  }
+
+  .quiz_box section .option_list {
+
+    width: 100%;
+
+  }
+
+  footer .next_btn {
+
+    font-size: 15px;
+
+  }
+  
+  footer .btn-explanation {
+
+    font-size: 15px;
+
+  }
+
+
+}
+
+
+
+/* 
+###################################
 #### css pour iphone 10 414 PX ####
 ###################################
 */
@@ -785,6 +876,12 @@ img {
 
     max-width: 332px;
     max-height: 413px;
+
+  }
+
+  .quiz_box section .option_list {
+
+    width: 100%;
 
   }
 
