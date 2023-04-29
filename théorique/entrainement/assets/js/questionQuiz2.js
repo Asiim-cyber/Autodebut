@@ -375,4 +375,330 @@ let questions = [
         explanation : "Avant d'engager une vitesse, il faut « débrayer » pour désolidariser les roues du moteur. Après avoir engagé une vitesse, il faut progressivement relâcher la pédale ou le levier d'embrayage, c'est-à-dire : « embrayer »."
     },
 
+    {
+        numb: 27,
+        points : 5,
+        question : "De nuit, circulant en feu(x) de route, un conducteur croise un piéton. Doit-il repasser en feu(x) de croisement :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image27.jfif">',
+        answer: "oui",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Les feux de route sont éblouissants et doivent être remplacés par les feux de croisement : à l'approche d'un usager (donc pas seulement « conducteur ») en sens inverse, à la distance nécessaire pour que celui-ci puisse continuer sa marche aisément et sans danger ; INFRACTION DU 3e DEGRÉ ! dès qu'un conducteur allume et éteint successivement et rapidement ses feux de route pour faire comprendre qu'il est ébloui ;  en suivant un autre véhicule à moins de 50 m, sauf si vous le dépassez. Si vous voulez le prévenir, le coup de klaxon doit être remplacé par un appel de phares ; si l’éclairage de la chaussée est continu et suffisant pour permettre une visibilité d’une centaine de mètres."
+    },
+
+    {
+        numb: 28,
+        points : 1,
+        question : "Tous les gaz qui sortent des tuyaux d'échappement sont nocifs pour la santé. Lequel est immédiatement le plus dangereux, voire mortel :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image28.jfif">',
+        answer: "le monoxyde de carbone",
+        options: [
+            "le dioxyde de carbone",
+            "le monoxyde de carbone",
+            "le dioxyde de soufre"
+        ],
+        explanation : "Parmi les gaz d'échappement les plus nocifs : le monoxyde de carbone. Ce gaz inodore, incolore et insipide est un véritable poison sanguin, mieux connu comme 'le tueur silencieux des salles de bain.'"
+    },
+
+    {
+        numb: 29,
+        points : 1,
+        question : "En agglomération, sur une chaussée à sens unique divisée en bandes de circulation :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image29.jfif">',
+        answer: "je peux choisir ma bande de circulation",
+        options: [
+            "je dois rouler à droite, sauf lorsque la circulation est dense",
+            "je dois changer de bande pour dépasser ce véhicule par la gauche",
+            "je peux choisir ma bande de circulation"
+        ],
+        explanation : "Le choix de la bande de circulation est soumis à une double condition : être en agglomération (c'est précisé dans la question) ; circuler : soit sur une chaussée à sens unique divisée en bandes de circulation (c'est le cas !), soit sur une chaussée à min. 2 + 2 bandes."
+    },
+
+    {
+        numb: 30,
+        points : 1,
+        question : "Au-delà de ce signal, à la vitesse maximale autorisée, quelle est la distance de sécurité minimale à maintenir entre le véhicule qui précède et le vôtre :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image30.jfif">',
+        answer: "± 10 mètres",
+        options: [
+            "± 10 mètres",
+            "± 15 mètres",
+            "± 20 mètres"
+        ],
+        explanation : "Ce signal routier (F12a) annonce le début d’une zone résidentielle ou de rencontre et limite ma vitesse maximale à 20 km/h. À cette vitesse, la distance de sécurité à maintenir entre le véhicule qui me précède est, en mètres, égale à la moitié de ma vitesse, soit 10 mètres."
+    },
+
+    {
+        numb: 31,
+        points : 1,
+        question : "Ce signal m'indique un virage dangereux à environ 150 m. Arrivant à trop vive allure, je freine :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image31.jfif">',
+        answer: "en me ménageant un bout de ligne droite avant l'entrée du virage",
+        options: [
+            "en début de virage",
+            "en fin de virage",
+            "en me ménageant un bout de ligne droite avant l'entrée du virage"
+        ],
+        explanation : "Ce signal (A1a) vous annonce un virage dangereux à gauche. Il est très important de se ménager un bout de trajectoire rectiligne pour éviter de freiner et de virer en même temps."
+    },
+
+    {
+        numb: 32,
+        points : 1,
+        question : "Quel signal limite la vitesse maximale à l’allure du pas ?",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image32.jfif">',
+        answer: "le signal F103 (à droite)",
+        options: [
+            "le signal F12a (à gauche)",
+            "le signal F87 (au centre)",
+            "le signal F103 (à droite)"
+        ],
+        explanation : "Sans le préciser explicitement, ces trois signaux routiers limitent également la vitesse : F12a à 20 km/h, F87 à 30 km/h et F103 à 5 km/h."
+    },
+
+    {
+        numb: 33,
+        points : 5,
+        question : "Je dois contourner ce véhicule en stationnement :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image33.jfif">',
+        answer: "je m'arrête pour céder le passage",
+        options: [
+            "je m'arrête pour céder le passage",
+            "arrivant le premier sur l'obstacle, je peux passer",
+            "l'autre conducteur doit me céder le passage"
+        ],
+        explanation : "En cas de croisement difficile ou impossible, c'est au conducteur qui rencontre l'obstacle ou le signal B19 (rond cerclé de rouge avec deux flèches dont une rouge dans la direction que vous suivez) de céder le passage. INFRACTION DU 3e DEGRÉ !"
+    },
+
+    {
+        numb: 34,
+        points : 1,
+        question : "Je vire à gauche à ce carrefour. Je dois céder le passage à ce conducteur à ma droite :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image34.jfif">',
+        answer: "oui",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Application du principe général de priorité de droite : tout conducteur doit céder le passage à celui qui se présente à sa droite."
+    },
+
+    {
+        numb: 35,
+        points : 1,
+        question : "Par circulation fortement ralentie à proximité de ce rétrécissement, quel est le bon ordre de passage par stricte application de la législation, en l’absence de tout geste de courtoisie :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image35.jfif">',
+        answer: "le véhicule D1, G1, C1 puis D2, G2 et C2",
+        options: [
+            "le véhicule C1, D1, G1 puis C2, D2 et G2",
+            "le véhicule D1, G1, C1 puis D2, G2 et C2"
+        ],
+        explanation : "Par circulation fortement ralentie est dense à proximité de ce rétrécissement, le conducteur de la bande qui continue (C1) doit tout d’abord céder le passage à un conducteur de la bande entravée à sa droite (D1), puis à conducteur de la bande entravée à sa gauche (G1) et de même pour les véhicules qui suivent."
+    },
+
+    {
+        numb: 36,
+        points : 1,
+        question : "Je peux dépasser ce conducteur :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image36.jfif">',
+        answer: "non",
+        options: [
+            "oui",
+            "oui, après un bref coup de klaxon",
+            "non"
+        ],
+        explanation : "Si le marquage au sol n'interdit pas le dépassement, on approche d'un sommet de côte qui empêche de s'assurer que la voie est libre et qu'aucun véhicule n'arrive en sens inverse. Le dépassement par la gauche d'un véhicule attelé, d'un véhicule à moteur à deux roues ou d'un véhicule à plus de deux roues est interdit à l'approche du sommet d'une côte et dans les virages, lorsque la visibilité est insuffisante, sauf si le dépassement peut se faire sans franchir la ligne blanche continue délimitant la partie de la chaussée affectée à la circulation venant en sens inverse. INFRACTION TRÈS GRAVE !"
+    },
+
+    {
+        numb: 37,
+        points : 1,
+        question : "Ce signal interdit à un cavalier de dépasser par la gauche une carriole transportant des touristes :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image37.jfif">',
+        answer: "oui",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Ce signal C35 : interdit à tout conducteur, donc également à un cavalier, de dépasser par la gauche tout véhicule « large », mais : permet dépasser par la gauche un véhicule « étroit » ; permet de dépasser par la droite un véhicule étroit ou large qui indique qu’il veut se garer et/ou virer à gauche et s’est déporté de ce côté."
+    },
+
+    {
+        numb: 38,
+        points : 5,
+        question : "Au littoral, sur une route qui n'est pas divisée en trois bandes de circulation dans le sens suivi, je peux dépasser ces deux conducteurs par la gauche :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image38.jfif">',
+        answer: "non",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Tripler = dépasser par la gauche un véhicule qui en dépasse lui-même un autre, c’est-à-dire avoir, à votre droite, deux autres véhicules.  Tripler est autorisé : on peut dépasser par la gauche soit un véhicule large, soit un véhicule étroit à moteur, qui dépasse lui-même un véhicule étroit.  Tripler est interdit : on NE peut PAS dépasser par la gauche soit un véhicule large, soit un véhicule étroit à moteur, qui dépasse lui-même un véhicule large. (C'est le cas ici puisqu'un véhicule étroit à moteur, le cyclo, dépasse un véhicule large, le cuistax). INFRACTION DU 3e DEGRÉ !"
+    },
+
+    {
+        numb: 39,
+        points : 1,
+        question : "Ce véhicule de police manifeste son intention de virer à sa gauche. Seuls les feux bleus fonctionnent. Je dois lui céder le passage :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image39.jfif">',
+        answer: "non",
+        options: [
+            "oui",
+            "oui et, au besoin, m'arrêter",
+            "non"
+        ],
+        explanation : "Sans son avertisseur sonore spécial, ce véhicule n'est pas prioritaire. Les feux bleus signifient qu'il effectue une mission urgente mais sans exiger la priorité de passage."
+    },
+
+    {
+        numb: 40,
+        points : 1,
+        question : 'Je dois circuler dans cette bande "BUS" :',
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image40.jfif">',
+        answer: "oui, si je vire à droite au prochain carrefour",
+        options: [
+            "oui, en toutes circonstances",
+            "oui, si je vire à droite au prochain carrefour",
+            "non, jamais"
+        ],
+        explanation : "Circuler dans cette bande BUS est obligatoire pour les conducteurs qui changent de direction à l'approche immédiate d'un carrefour."
+    },
+
+    {
+        numb: 41,
+        points : 1,
+        question : "Ce cycliste s'est arrêté et a mis pied à terre. Je dois, malgré tout, lui céder le passage :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image41.jfif">',
+        answer: "oui",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Ce signal de priorité (B17) rappelle que dans ce carrefour s'applique la règle générale de priorité à droite. Même s'il a mis pied à terre, vous devez céder le passage à ce cycliste (donc conducteur) qui se présente à votre droite."
+    },
+
+    {
+        numb: 42,
+        points : 1,
+        question : "À ce carrefour, je dois céder le passage à droite et à gauche et, en plus, marquer l'arrêt :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image42.jfif">',
+        answer: "dans tous les cas",
+        options: [
+            "dans tous les cas",
+            "uniquement si des véhicules approchent sur la voie prioritaire",
+            "sauf si je tourne à droite"
+        ],
+        explanation : "Ce signal de priorité (B5) vous oblige à marquer l'arrêt et céder le passage. Où marquer l'arrêt ? À hauteur de la ligne blanche d'arrêt. À défaut, à hauteur du signal et ensuite céder le passage à l'endroit où vous apercevez le mieux les véhicules à qui vous devez céder le passage."
+    },
+
+    {
+        numb: 43,
+        points : 1,
+        question : "Pour quitter un rond-point, clignoter à droite est :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image43.jfif">',
+        answer: "obligatoire",
+        options: [
+            "obligatoire",
+            "facultatif",
+            "interdit"
+        ],
+        explanation : "Sur un rond-point, l'usage des clignotants est : facultatif pour accéder à l'anneau ; obligatoire pour quitter l'anneau."
+    },
+
+    {
+        numb: 44,
+        points : 1,
+        question : "Lors de la traversée d'un tunnel, un bouchon se forme soudain devant vous. Votre premier réflexe :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image44.jfif">',
+        answer: "allumer les feux de détresse",
+        options: [
+            "donner l'alerte au personnel autoroutier",
+            "allumer les feux de détresse",
+            "klaxonner"
+        ],
+        explanation : "Ce signal (F8) vous annonce un long tunnel. En cas d'embouteillage, il est vital d'avertir les conducteurs qui suivent pour éviter une collision en chaîne."
+    },
+
+    {
+        numb: 45,
+        points : 1,
+        question : "Puis-je franchir ce signal lors de mon apprentissage ?",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image45.jfif">',
+        answer: "oui",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Ce signal (F9) vous indique une route pour automobiles. Un conducteur en apprentissage et donc détenteur d'un permis de conduire provisoire est autorisé à s'engager sur autoroute ou route pour automobiles en voiture ou à moto."
+    },
+
+    {
+        numb: 46,
+        points : 1,
+        question : "J'hésite sur l'itinéraire à suivre. Je peux m'arrêter un bref instant à droite de la ligne blanche continue :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image46.jfif">',
+        answer: "oui, mais uniquement en deçà du signal",
+        options: [
+            "oui, mais uniquement en deçà du signal",
+            "oui, mais uniquement au-delà du signal",
+            "non"
+        ],
+        explanation : "Interdiction, sur autoroute (et routes pour automobiles), de mettre un véhicule à l'arrêt ou en stationnement, sauf sur les aires de stationnement indiquées par le signal E9a (P blanc sur fond bleu). Les règles spécifiques s'appliquent à partir du signal (F5) qui vous annonce une autoroute. Pour éviter pareilles hésitations, préparez votre itinéraire."
+    },
+
+    {
+        numb: 47,
+        points : 1,
+        question : "Sur cette autoroute :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image47.jfif">',
+        answer: "je suis engagé dans le bon sens",
+        options: [
+            "je suis engagé dans le bon sens",
+            "je suis engagé en sens contraire"
+        ],
+        explanation : "L'autoroute apparaît à votre gauche, le signal (B1) qui vous oblige à céder le passage est dirigé dans votre direction, la bande de droite est la première à votre gauche et pas de trafic en sens inverse."
+    },
+
+    {
+        numb: 48,
+        points : 1,
+        question : "Vous êtes impliqué dans un accident sur une route pour automobiles. Votre voiture est hors d'état de circuler. Vous devez vous charger vous-même de la faire évacuer :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image48.jfif">',
+        answer: "non",
+        options: [
+            "oui",
+            "non"
+        ],
+        explanation : "Sur les routes pour automobiles et les autoroutes, la police pourvoit d'office au déplacement du véhicule et de son chargement."
+    },
+
+    {
+        numb: 49,
+        points : 1,
+        question : "Pour utiliser un engin de déplacement, ai-je besoin d’un permis de conduire ?",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image49.jfif">',
+        answer: "non",
+        options: [
+            "oui, de catégorie AM",
+            "oui, de catégorie B",
+            "non"
+        ],
+        explanation : "Aucun permis de conduire n'est nécessaire pour utiliser un engin de déplacement motorisé. Attention tout de même à l'âge minimal qui est fixé à 16 ans (sauf pour les personnes à mobilité réduire ainsi que dans les zones rédisentielles ou de rencontre, piétonnes, réservées au jeu, et sur les chemins annoncés par les signaux F99a et F99c)."
+    },
+
+    {
+        numb: 50,
+        points : 1,
+        question : "Dans cette situation :",
+        image : '<img src="../../assets/image/entrainement-image/quiz2/quiz2_image50.jfif">',
+        answer: "je ralentis et m'écarte légèrement vers la gauche",
+        options: [
+            "je continue car ces piétons ne peuvent pas traverser",
+            "je ralentis et m'écarte légèrement vers la gauche"
+        ],
+        explanation : "Ces piétons semblent absorbés par leurs discussions. Mieux vaut dès lors prendre les devants !"
+    }
+    
 ]

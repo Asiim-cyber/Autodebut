@@ -72,9 +72,9 @@ session_start();
         <div class="container">
             <a href="./entrainement/quiz1.php"><div class="button">Quiz n°1</div></a>
             <a href="./entrainement/quiz2.php"><div class="button">Quiz n°2</div></a>
-            <a href=""><div class="button">Quiz n°3</div></a>
-            <a href=""><div class="button">Quiz n°4</div></a>
-            <a href=""><div class="button">Quiz n°5</div></a>
+            <a href="./entrainement/quiz3.php"><div class="button">Quiz n°3</div></a>
+            <a href="./entrainement/quiz4.php"><div class="button">Quiz n°4</div></a>
+            <a href="./entrainement/quiz5.php"><div class="button">Quiz n°5</div></a>
         </div>
 
         <div class="container">

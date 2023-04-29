@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ?>
@@ -131,8 +130,10 @@ session_start();
       <span id="fail-or-success"></span>
     </div>
     <div class="buttons">
-      <button class="restart">Rejouer le questionnaire</button>
-      <a href="../entrainement.php"><button class="quit">Quitter le questionnaire</button></a>
+      <button class="restart" onclick="optionSelected()">Rejouer le questionnaire</button>
+      <a href="../entrainement.php">
+        <button class="quit">Quitter le questionnaire</button>
+      </a>  
     </div>
   </div>
       
@@ -144,7 +145,7 @@ session_start();
       
   <!-- lien javascript -->
   <script src="assets/js/entrainement.js" type="text/javascript" ></script>
-  <script src="./assets/js/questionQuiz1.js" type="text/javascript" ></script>
+  <script src="./assets/js/questionQuiz3.js" type="text/javascript" ></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   
