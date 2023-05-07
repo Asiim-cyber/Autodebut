@@ -62,7 +62,7 @@ QUOI ? HTML DE LA PAGE PRINICPAL (ACCEUIL)
                 <div class="explication">
                     Commencer sur la route est parfois compliqué, Auto-début vous permettera de pouvoir :
                     
-                    <div class="bold-text">D'acquérir des nouvelles <titleRed>connaissances</titleRed>, tester vos <titleRed>capacités</titleRed>, pour ensuite passer votre <titleRed>examen théorique</titleRed></div>
+                    <div class="bold-text">Acquérir des nouvelles <titleRed>connaissances</titleRed>, tester vos <titleRed>capacités</titleRed>, pour ensuite passer votre <titleRed>examen théorique</titleRed></div>
                 </div>
 
                 <!-- bouton qui va scroll vers le bas de la page (découvrir)-->
