@@ -33,7 +33,7 @@ let questions = [
         points : 1,
         question : "Cette veste de sécurité est un accessoire :",
         image : '<img src="../../assets/image/entrainement-image/quiz1/quiz1_image3.jfif">',
-        answer: "Obligatoire",
+        answer: "obligatoire",
         options: [
             "conseillé",
             "obligatoire",
@@ -310,7 +310,7 @@ let questions = [
         numb: 23,
         points : 1,
         question : "Les deux lignes discontinues parallèles de couleur blanche aux bords de la chaussée délimitent :",
-        image : '<img src="../../assets/image/entrainement-image/quiz1/quiz1_image20.jfif">',
+        image : '<img src="../../assets/image/entrainement-image/quiz1/quiz1_image23.jfif">',
         answer: "une piste cyclabe",
         options: [
             "une zone réservée à l'arrêt et au stationnement",
