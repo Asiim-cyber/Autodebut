@@ -45,7 +45,7 @@ session_start();
     </div>
 
   <!-- Bouton démarrer le Quiz -->
-  <div class="start_btn"><button>Démarrer le questionnaire</button></div>
+  <div class="start_btn"><button>Commencer le questionnaire</button></div>
 
   <!-- information de la boite avant le quiz -->
   <div class="info_box">
@@ -80,6 +80,8 @@ session_start();
       </div>
       <div class="time_line"></div>
       <div id="div-score">Score : <span id="score">0</span></div>
+      <input type="button" value="PLAY" onclick="play()">
+      
     </header>
     <section>
 
@@ -88,6 +90,7 @@ session_start();
       </div>
       <div class="explanation" id="explanation">
       </div>
+      <audio id="audio"></audio>
       <div class="photo">
         
       </div>

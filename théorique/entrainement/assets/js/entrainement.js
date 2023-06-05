@@ -49,7 +49,6 @@ continue_btn.onclick = ()=> {
     // cacher les informations du questionnaire
     info_box.classList.remove("activeInfo")
     quiz_box.classList.remove("activeResult")
-    console.log("AAA")
 
     //afficher le quiz 
     quiz_box.classList.add("activeQuiz")
@@ -201,7 +200,7 @@ function showQuestions(index) {
 
     const que_text = document.querySelector(".que_text");
     let que_image = '<div class"photo">' + questions[index].image + '</div>'
-    let que_tag = '<span>'+ questions[index].numb + ". "  + questions[index].question +'</span>' + que_image
+    let que_tag = '<span>'+ questions[index].numb + ". "  + questions[index].question +'</span> <br>' + que_image 
     for(let i = 0; i < questions[index].options.length; i++){
         option_list.innerHTML += '<div class="option">' + questions[index].options[i] + '<span></span></div>';
     }
@@ -292,6 +291,12 @@ function startTimer(time) {
 
     }
 
+}
+
+function play(index) {
+    let que_audio = '<div id="audio">' + questions[index].voix + '</div>';
+    que_audio.play();
+    console.log("Audio!!")
 }
 
 // FONCTION DE LA LIGNE DU TEMPS

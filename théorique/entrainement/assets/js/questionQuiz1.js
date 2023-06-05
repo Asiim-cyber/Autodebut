@@ -4,6 +4,7 @@ let questions = [
         numb: 1,
         points : 1,
         question : "Quelle est la largeur minimale intérieure pour que 2 passagers puissent prendre place à côté du conducteur :",
+        voix : '<audio src="../../assets/audio/quiz1/quiz1_voix1.mp3">',
         image : '<img src="../../assets/image/entrainement-image/quiz1/quiz1_image1.jfif">',
         answer: "1,35 m",
         options: [
